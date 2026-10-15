@@ -1,0 +1,14 @@
+{
+  "name": "Uranerz",
+  "description": "Radioaktives Erz fuer die Kernspaltung.",
+  "color": "84e25c",
+  "hardness": 4,
+  "cost": 1.6,
+  "radioactivity": 0.85,
+  "explosiveness": 0.08,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

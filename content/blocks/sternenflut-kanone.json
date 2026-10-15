@@ -1,0 +1,54 @@
+{
+  "type": "LiquidTurret",
+  "name": "Sternenflut-Kanone",
+  "description": "Verbraucht sternenplasma als Munition und erzeugt Energie-/Fluessigkeitstreffer.",
+  "category": "turret",
+  "size": 5,
+  "health": 1950,
+  "requirements": [
+    "titanium/215",
+    "silicon/155",
+    "neutronium/65"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/215",
+      "silicon/155"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 170,
+  "consumes": {
+    "power": 12.0
+  },
+  "range": 385,
+  "reload": 68,
+  "rotateSpeed": 3.2,
+  "recoil": 2.0,
+  "shootCone": 14,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "sternenplasma": {
+      "type": "LiquidBulletType",
+      "liquid": "sternenplasma",
+      "speed": 4.6,
+      "lifetime": 65,
+      "damage": 155,
+      "puddles": 2,
+      "puddleRange": 20,
+      "puddleAmount": 12,
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "status": "melting",
+      "statusDuration": 540
+    }
+  }
+}

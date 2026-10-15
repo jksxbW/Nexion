@@ -1,0 +1,25 @@
+{
+  "type": "Wall",
+  "name": "Graviplatten-Bollwerk",
+  "description": "Riesige stabilisierte Panzerwand aus Graviplatten.",
+  "category": "defense",
+  "size": 3,
+  "health": 19000,
+  "requirements": [
+    "titanium/210",
+    "silicon/135",
+    "thorium/75",
+    "graviplatte/120"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/210",
+      "silicon/135"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "armor": 35
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Neutronium",
+  "description": "Extrem verdichtetes Metall fuer Superwaffen und besonders stabile Panzerung.",
+  "color": "75e8fa",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 9,
+  "hardness": 7,
+  "charge": 0.5
+}

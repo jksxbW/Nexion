@@ -1,0 +1,12 @@
+{
+  "name": "Ionenkern",
+  "description": "Komprimierter Ionenkern fuer Ionenplasma, Stromerzeugung und Kanonen.",
+  "color": "69b8ff",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 11.2,
+  "hardness": 8
+}

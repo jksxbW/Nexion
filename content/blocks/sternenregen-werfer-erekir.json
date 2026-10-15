@@ -1,0 +1,64 @@
+{
+  "type": "LiquidTurret",
+  "name": "Sternenregen-Werfer (Erekir)",
+  "description": "Schwere Sternenplasma-Artillerie mit brennenden Flächentreffern.",
+  "category": "turret",
+  "size": 6,
+  "health": 2820,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "neutronium/210",
+    "pyronium/120"
+  ],
+  "hasPower": true,
+  "range": 510,
+  "reload": 170,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "artillery",
+  "consumes": {
+    "power": 78
+  },
+  "ammoTypes": {
+    "sternenplasma": {
+      "type": "ArtilleryBulletType",
+      "speed": 3.7,
+      "lifetime": 140,
+      "damage": 240,
+      "width": 14,
+      "height": 20,
+      "frontColor": "ffdb78",
+      "backColor": "52627a",
+      "hitColor": "ffdb78",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 920,
+      "splashDamageRadius": 108,
+      "status": "melting",
+      "statusDuration": 600,
+      "puddles": 6,
+      "puddleLiquid": "sternenplasma",
+      "puddleAmount": 15,
+      "puddleRange": 55
+    }
+  },
+  "hasLiquids": true,
+  "liquidCapacity": 160,
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  }
+}

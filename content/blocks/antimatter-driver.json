@@ -1,0 +1,38 @@
+{
+  "type": "MassDriver",
+  "name": "Antimaterie-Impulswerfer",
+  "description": "Langstrecken-Transferkanone für Antimaterie-Ampullen. Versorgt abgelegene Reaktor- oder Waffensektoren zuverlässig.",
+  "category": "distribution",
+  "size": 3,
+  "health": 1320,
+  "itemCapacity": 140,
+  "hasPower": true,
+  "requirements": [
+    "titanium/180",
+    "silicon/140",
+    "plastanium/120",
+    "phase-fabric/40",
+    "antimatter-ampoule/2"
+  ],
+  "range": 440,
+  "rotateSpeed": 0.07,
+  "reloadTime": 70,
+  "minDistribute": 8,
+  "shake": 2.2,
+  "translation": 8,
+  "knockback": 2.0,
+  "consumes": {
+    "power": 2.8
+  },
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/420",
+      "silicon/340",
+      "graphite/230"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

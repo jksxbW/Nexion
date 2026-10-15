@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "Kryonit-Salvenwerfer · Erekir",
+  "description": "Schnelle Kryonitgeschosse mit Gefriereffekt.",
+  "category": "turret",
+  "size": 4,
+  "health": 1560,
+  "requirements": [
+    "tungsten/152",
+    "oxide/120",
+    "kryonit/65"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/152",
+      "oxide/120"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasItems": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 12.4
+  },
+  "range": 300,
+  "reload": 28,
+  "rotateSpeed": 3.5,
+  "recoil": 2.5,
+  "shootCone": 14,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "kryonit": {
+      "type": "BasicBulletType",
+      "speed": 5.8,
+      "lifetime": 80,
+      "damage": 72,
+      "width": 12,
+      "height": 17,
+      "frontColor": "91ddff",
+      "backColor": "42506c",
+      "hitColor": "91ddff",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "splashDamage": 145,
+      "splashDamageRadius": 56,
+      "status": "freezing",
+      "statusDuration": 300
+    }
+  },
+  "maxAmmo": 50,
+  "ammoPerShot": 1
+}

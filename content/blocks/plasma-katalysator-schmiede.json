@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plasma-Katalysator-Schmiede",
+  "description": "Presst reaktive Metalle zu energiereichen Plasma-Katalysatoren.",
+  "category": "crafting",
+  "health": 1250,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 45,
+  "requirements": [
+    "titanium/240",
+    "silicon/220",
+    "thorium/140"
+  ],
+  "consumes": {
+    "power": 8.0,
+    "items": [
+      "titanium/2",
+      "silicon/2",
+      "thorium/1"
+    ]
+  },
+  "outputItem": "plasma-katalysator/1",
+  "craftTime": 100,
+  "craftEffect": "smeltsmoke",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/80",
+      "titanium/40"
+    ]
+  },
+  "size": 3
+}

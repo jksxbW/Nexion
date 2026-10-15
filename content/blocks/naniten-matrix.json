@@ -1,0 +1,37 @@
+{
+  "type": "MendProjector",
+  "name": "Naniten-Matrix",
+  "description": "Repariert umliegende Bloecke mit Strom und Nanitenfluessigkeit. Staerker als das normale Reparaturfeld.",
+  "category": "defense",
+  "size": 4,
+  "health": 1560,
+  "requirements": [
+    "titanium/150",
+    "silicon/140",
+    "phase-fabric/50",
+    "neutronium/22"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/150",
+      "silicon/140"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 220,
+  "consumes": {
+    "power": 12,
+    "liquid": "nanitenfluessigkeit/0.10"
+  },
+  "range": 158,
+  "reload": 140,
+  "healPercent": 16,
+  "useTime": 360,
+  "baseColor": "b4f0e7",
+  "phaseColor": "d2fff9"
+}

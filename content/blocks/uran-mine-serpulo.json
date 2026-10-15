@@ -1,0 +1,29 @@
+{
+  "type": "ShockMine",
+  "name": "Uran-Mine",
+  "description": "Einweg-Kontaktmine. Explodiert bei Berührung durch feindliche Bodeneinheiten und zerstört sich nach der ersten Auslösung selbst. Schockketten statt eines kreisförmigen Explosionsradius. Klasse 10 ist eine Stufe, kein Radius von 10 Feldern.",
+  "category": "effect",
+  "size": 1,
+  "health": 300,
+  "hasShadow": false,
+  "damage": 130,
+  "length": 16,
+  "tendrils": 8,
+  "cooldown": 2.0,
+  "tileDamage": 325.0,
+  "requirements": [
+    "titanium/35",
+    "thorium/12",
+    "uranium-ore/6"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/35",
+      "thorium/12"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

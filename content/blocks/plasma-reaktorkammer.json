@@ -1,0 +1,53 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plasma-Reaktorkammer",
+  "description": "Verflüssigt Hochenergie-Plasma aus Brennstaeben, Katalysator und Schlacke. Fluessigkeit durch Leitungen abpumpen.",
+  "category": "crafting",
+  "health": 1940,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 70,
+  "liquidCapacity": 180,
+  "requirements": [
+    "titanium/440",
+    "surge-alloy/210",
+    "thorium/230",
+    "plasma-katalysator/25"
+  ],
+  "consumes": {
+    "power": 32.0,
+    "items": [
+      "uranium-rod/1",
+      "plasma-katalysator/1"
+    ],
+    "liquid": "slag/0.10"
+  },
+  "outputLiquid": "plasma/0.24",
+  "craftTime": 180,
+  "craftEffect": "smeltsmoke",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/80",
+      "titanium/40"
+    ]
+  },
+  "size": 4,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.8,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "OreBlock",
+  "name": "Pyroditerz-Ader",
+  "description": "Nur Karteneditor: Ader kann in eigenen Karten platziert und mit dem Quantenbohrer abgebaut werden. Keine automatische Entstehung auf bestehenden Serpulo-/Erekir-Sektoren.",
+  "category": "effect",
+  "itemDrop": "pyrodit-erz",
+  "variants": 3,
+  "oreDefault": false,
+  "mapColor": "ff8a48",
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

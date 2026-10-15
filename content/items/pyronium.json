@@ -1,0 +1,14 @@
+{
+  "name": "Pyronium",
+  "description": "Instabiles Hochtemperaturmetall fuer Inferno-Waffen und Reaktoren.",
+  "color": "ff6e37",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 6.5,
+  "hardness": 5,
+  "explosiveness": 0.9,
+  "flammability": 0.5
+}

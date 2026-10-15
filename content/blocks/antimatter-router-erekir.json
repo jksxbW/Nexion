@@ -1,0 +1,22 @@
+{
+  "type": "Router",
+  "name": "Antimaterie-Verteiler · Erekir",
+  "description": "Für Erekir angepasst. Passender Verteiler für das Antimaterie-Leitnetz. Leitet Ampullen sauber auf mehrere Leitbänder um.",
+  "category": "distribution",
+  "health": 120,
+  "requirements": [
+    "beryllium/9",
+    "silicon/2",
+    "tungsten/2"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/160",
+      "silicon/100"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "NuclearReactor",
+  "name": "Fissions-Atomkraftwerk",
+  "description": "Verbraucht Uran-Brennstaebe und Kryofluid. Bei Kuehlausfall steigt die Temperatur und der Reaktor kann die Basis zerstoeren.",
+  "category": "power",
+  "size": 5,
+  "health": 2200,
+  "hasItems": true,
+  "itemCapacity": 20,
+  "hasLiquids": true,
+  "liquidCapacity": 170,
+  "requirements": [
+    "lead/820",
+    "titanium/610",
+    "silicon/640",
+    "metaglass/320",
+    "plastanium/290",
+    "surge-alloy/200",
+    "uranium-rod/36"
+  ],
+  "fuelItem": "uranium-rod",
+  "powerProduction": 140.0,
+  "itemDuration": 360,
+  "heating": 0.007,
+  "coolantPower": 0.14,
+  "smokeThreshold": 0.33,
+  "flashThreshold": 0.58,
+  "explosionRadius": 36,
+  "explosionDamage": 11000,
+  "explosionShake": 10,
+  "consumes": {
+    "item": "uranium-rod",
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.12,
+      "update": false
+    }
+  },
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/750",
+      "silicon/620",
+      "thorium/270"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

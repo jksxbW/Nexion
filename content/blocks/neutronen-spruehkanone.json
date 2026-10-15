@@ -1,0 +1,54 @@
+{
+  "type": "LiquidTurret",
+  "name": "Neutronen-Spruehkanone",
+  "description": "Versprueht schädliche Neutronenfluessigkeit und frostet gegnerische Einheiten.",
+  "category": "turret",
+  "size": 3,
+  "health": 1410,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "neutronium/20"
+  ],
+  "hasPower": true,
+  "range": 210,
+  "reload": 22,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": false,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "consumes": {
+    "power": 8
+  },
+  "ammoTypes": {
+    "neutronenfluid": {
+      "type": "LiquidBulletType",
+      "liquid": "neutronenfluid",
+      "speed": 4.7,
+      "lifetime": 52,
+      "damage": 65,
+      "puddleSize": 8,
+      "puddles": 3,
+      "puddleRange": 16,
+      "puddleAmount": 10,
+      "status": "freezing",
+      "statusDuration": 180,
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true
+    }
+  },
+  "hasLiquids": true,
+  "liquidCapacity": 160,
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

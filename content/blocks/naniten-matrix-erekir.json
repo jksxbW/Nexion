@@ -1,0 +1,37 @@
+{
+  "type": "MendProjector",
+  "name": "Naniten-Matrix · Erekir",
+  "description": "Repariert umliegende Bloecke mit Strom und Nanitenfluessigkeit. Staerker als das normale Reparaturfeld.",
+  "category": "defense",
+  "size": 4,
+  "health": 1560,
+  "requirements": [
+    "tungsten/150",
+    "oxide/130",
+    "carbide/60",
+    "neutronium/22"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/150",
+      "oxide/130"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 220,
+  "consumes": {
+    "power": 12,
+    "liquid": "nanitenfluessigkeit/0.10"
+  },
+  "range": 158,
+  "reload": 140,
+  "healPercent": 16,
+  "useTime": 360,
+  "baseColor": "b4f0e7",
+  "phaseColor": "d2fff9"
+}

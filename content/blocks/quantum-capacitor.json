@@ -1,0 +1,33 @@
+{
+  "type": "Battery",
+  "name": "Quanten-Kondensator",
+  "description": "Endgame-Grossspeicher fuer 650.000 Energie. Puffer gegen Schwankungen, Netzueberlast und die riesigen Leistungsspitzen deiner Fabriken.",
+  "category": "power",
+  "size": 4,
+  "health": 1850,
+  "requirements": [
+    "titanium/440",
+    "silicon/640",
+    "surge-alloy/390",
+    "phase-fabric/220",
+    "quantum-matter/105",
+    "uranium-rod/22"
+  ],
+  "consumes": {
+    "powerBuffered": 650000
+  },
+  "baseExplosiveness": 10.0,
+  "emptyLightColor": "203252",
+  "fullLightColor": "92f2ff",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/750",
+      "silicon/620",
+      "thorium/270"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

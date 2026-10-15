@@ -1,0 +1,12 @@
+{
+  "name": "Resonanzkristall",
+  "description": "Hochfrequenzkristall fuer Railguns und Resonanzschilde.",
+  "color": "f58dec",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 11.2,
+  "hardness": 8
+}

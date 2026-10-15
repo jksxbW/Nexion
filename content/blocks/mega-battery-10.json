@@ -1,0 +1,34 @@
+{
+  "type": "Battery",
+  "name": "Mega-Speicher II",
+  "description": "Automatischer Hochkapazitaets-Energiespeicher mit 10.000.000 Energie. Laedt bei Ueberschuss und liefert Strom bei Bedarf - ganz ohne Logikprozessor.",
+  "category": "power",
+  "size": 5,
+  "health": 2850,
+  "requirements": [
+    "silicon/600",
+    "titanium/490",
+    "surge-alloy/300",
+    "phase-fabric/150",
+    "quantum-matter/75"
+  ],
+  "consumes": {
+    "powerBuffered": 10000000
+  },
+  "baseExplosiveness": 0.890909090909091,
+  "emptyLightColor": "233443",
+  "fullLightColor": "80d6f5",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "silicon/330",
+      "titanium/269",
+      "surge-alloy/165",
+      "phase-fabric/82",
+      "quantum-matter/41"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

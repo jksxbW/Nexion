@@ -1,0 +1,11 @@
+{
+  "name": "Neutroniterz",
+  "description": "Schweres Rohneutronit. In selbst erstellten Karten abbaubar; alternativ bleibt der bestehende Neutronenverdichter nutzbar.",
+  "color": "6fd9f7",
+  "hardness": 7,
+  "cost": 2.0,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "LiquidTank",
+  "name": "Plasma-Drucktank",
+  "description": "Verstaerkter 3x3-Fluessigkeitsbehaelter fuer Plasma und Kristallplasma (kann auch andere Fluessigkeiten speichern).",
+  "category": "liquid",
+  "health": 1600,
+  "hasLiquids": true,
+  "liquidCapacity": 850,
+  "requirements": [
+    "titanium/250",
+    "metaglass/150",
+    "thorium/95"
+  ],
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/80",
+      "titanium/40"
+    ]
+  },
+  "size": 3
+}

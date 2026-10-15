@@ -1,0 +1,37 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Chrono-Beschleuniger (Erekir)",
+  "description": "Nutzt Chrono-Essenz, um benachbarte eigene Maschinen schneller zu machen.",
+  "category": "effect",
+  "size": 5,
+  "health": 2600,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 160,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "chronon-cell/95",
+    "quantum-matter/80"
+  ],
+  "consumes": {
+    "power": 48,
+    "liquid": "chrono-essenz/0.12"
+  },
+  "range": 196,
+  "speedBoost": 3.0,
+  "speedBoostPhase": 0,
+  "reload": 120,
+  "baseColor": "b6a0fa",
+  "phaseColor": "ad9aff",
+  "hasBoost": false,
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  }
+}

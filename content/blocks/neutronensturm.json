@@ -1,0 +1,54 @@
+{
+  "type": "LiquidTurret",
+  "name": "Neutronensturm",
+  "description": "Verbraucht neutronenfluid als Munition und erzeugt Energie-/Fluessigkeitstreffer.",
+  "category": "turret",
+  "size": 3,
+  "health": 1170,
+  "requirements": [
+    "titanium/129",
+    "silicon/93",
+    "neutronium/25"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/129",
+      "silicon/93"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 170,
+  "consumes": {
+    "power": 7.2
+  },
+  "range": 230,
+  "reload": 15,
+  "rotateSpeed": 3.2,
+  "recoil": 2.0,
+  "shootCone": 14,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "neutronenfluid": {
+      "type": "LiquidBulletType",
+      "liquid": "neutronenfluid",
+      "speed": 4.6,
+      "lifetime": 65,
+      "damage": 40,
+      "puddles": 2,
+      "puddleRange": 20,
+      "puddleAmount": 12,
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "status": "freezing",
+      "statusDuration": 240
+    }
+  }
+}

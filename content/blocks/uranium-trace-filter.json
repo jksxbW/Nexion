@@ -1,0 +1,54 @@
+{
+  "type": "GenericCrafter",
+  "category": "crafting",
+  "size": 3,
+  "health": 930,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 48,
+  "craftTime": 180,
+  "outputItem": "uranium-ore/2",
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0.0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "spinSprite": true,
+      "rotateSpeed": 2.835
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-top"
+    }
+  ],
+  "name": "Uran-Spurenfilter",
+  "description": "Gewinnt kleine Uran-Spuren aus gewöhnlichen Metall- und Kohlevorkommen. Funktioniert auch ohne Uran-, Thorium- oder Sandfelder. Erzeugt 2 Uranerz alle 3 Sekunden.",
+  "requirements": [
+    "copper/110",
+    "lead/120",
+    "graphite/45",
+    "silicon/40"
+  ],
+  "consumes": {
+    "power": 5.0,
+    "items": [
+      "lead/8",
+      "coal/4"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/110",
+      "lead/120",
+      "graphite/45",
+      "silicon/40"
+    ]
+  }
+}

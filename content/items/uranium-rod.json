@@ -1,0 +1,15 @@
+{
+  "name": "Uran-Brennstab",
+  "description": "Gepresster Reaktorbrennstoff aus angereichertem Uran. Wird im Fissionskraftwerk verbrannt und kann Uran-Lanzen laden.",
+  "color": "c7ff59",
+  "cost": 4.8,
+  "hardness": 0,
+  "radioactivity": 2.1,
+  "explosiveness": 0.36,
+  "flammability": 0,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "type": "LiquidTurret",
+  "name": "Kristallplasma-Kanone (Erekir)",
+  "description": "Antimaterie-kristallisierte Plasmagranaten: grosser Explosionsradius und mehrere verlangsamende Plasmapfuetzen. Treffer koennen die Waffen fuer 5 Sekunden deaktivieren. Feinde greifen NICHT ihre Verbuendeten an.",
+  "category": "turret",
+  "health": 2370,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 180,
+  "range": 350,
+  "minRange": 42,
+  "reload": 100,
+  "rotateSpeed": 2.1,
+  "recoil": 4.0,
+  "shootCone": 8,
+  "targetGround": true,
+  "targetAir": true,
+  "shootSound": "artillery",
+  "requirements": [
+    "tungsten/520",
+    "carbide/300",
+    "oxide/430",
+    "quantum-matter/90",
+    "antimatter-ampoule/8"
+  ],
+  "consumes": {
+    "power": 24.0
+  },
+  "ammoTypes": {
+    "kristallplasma": {
+      "type": "BasicBulletType",
+      "speed": 4.0,
+      "lifetime": 90,
+      "damage": 130,
+      "width": 17,
+      "height": 21,
+      "frontColor": "bda7ff",
+      "backColor": "8354f1",
+      "hitColor": "a98cff",
+      "splashDamage": 440,
+      "splashDamageRadius": 78,
+      "puddleLiquid": "kristallplasma",
+      "puddles": 8,
+      "puddleRange": 60,
+      "puddleAmount": 20,
+      "status": "disarmed",
+      "statusDuration": 300,
+      "ammoMultiplier": 1.0,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true
+    }
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/80",
+      "tungsten/40"
+    ]
+  },
+  "size": 4
+}

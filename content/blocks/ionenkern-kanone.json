@@ -1,0 +1,63 @@
+{
+  "type": "ItemTurret",
+  "name": "Ionenkern-Kanone",
+  "description": "Schiesst durchdringende Ionenkern-Projektile mit Schockwirkung.",
+  "category": "turret",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "titanium/280",
+    "silicon/180",
+    "thorium/100",
+    "ionenkern/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/280",
+      "silicon/180"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "liquidCapacity": 140,
+  "consumes": {
+    "power": 18
+  },
+  "range": 370,
+  "reload": 38,
+  "rotateSpeed": 2.9,
+  "recoil": 2.4,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "ionenkern": {
+      "type": "BasicBulletType",
+      "speed": 5.7,
+      "lifetime": 82,
+      "damage": 180,
+      "width": 12,
+      "height": 22,
+      "frontColor": "69b8ff",
+      "backColor": "374251",
+      "hitColor": "69b8ff",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "splashDamage": 117,
+      "splashDamageRadius": 48,
+      "collidesAir": true,
+      "collidesGround": true,
+      "ammoMultiplier": 1.0,
+      "status": "electrified",
+      "statusDuration": 360
+    }
+  },
+  "maxAmmo": 60,
+  "ammoPerShot": 1
+}

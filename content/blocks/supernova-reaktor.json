@@ -1,0 +1,33 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Supernova-Reaktor",
+  "description": "7x7 Hochleistungs-Kraftwerk: verbraucht Sternenplasma und Neutronenfluessigkeit als Sicherheitskuehlung. Bei mangelndem Nachschub stoppt die Stromproduktion.",
+  "category": "power",
+  "size": 7,
+  "health": 4900,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 420,
+  "powerProduction": 1400.0,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "neutronium/350",
+    "dunkle-materie/30"
+  ],
+  "consumes": {
+    "liquids": [
+      "sternenplasma/0.24",
+      "neutronenfluid/0.18"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

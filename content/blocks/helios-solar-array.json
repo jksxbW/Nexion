@@ -1,0 +1,38 @@
+{
+  "type": "SolarGenerator",
+  "name": "Helios-Solarfeld",
+  "description": "Modernes Solarkraftwerk mit hocheffizienten photovoltaischen Zellen. Erzeugt bei ausreichend Licht 660 Energie pro Sekunde, ohne Treibstoff.",
+  "category": "power",
+  "size": 4,
+  "health": 1350,
+  "requirements": [
+    "lead/360",
+    "silicon/560",
+    "metaglass/350",
+    "titanium/260",
+    "phase-fabric/70"
+  ],
+  "powerProduction": 11.0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawGlowRegion",
+      "suffix": "-glow",
+      "color": "a5d9ff",
+      "alpha": 0.24,
+      "glowScale": 17.0,
+      "glowIntensity": 0.25
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/350",
+      "lead/250",
+      "silicon/150"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "LiquidTurret",
+  "name": "Chrono-Kanone",
+  "description": "Chrono-Essenz-Schuesse verlangsamen Feinde mehrere Sekunden.",
+  "category": "turret",
+  "size": 4,
+  "health": 1880,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "chronon-cell/55"
+  ],
+  "hasPower": true,
+  "range": 355,
+  "reload": 52,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "consumes": {
+    "power": 16
+  },
+  "ammoTypes": {
+    "chrono-essenz": {
+      "type": "BasicBulletType",
+      "speed": 5.2,
+      "lifetime": 90,
+      "damage": 55,
+      "width": 14,
+      "height": 20,
+      "frontColor": "b6a0fa",
+      "backColor": "52627a",
+      "hitColor": "b6a0fa",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 210,
+      "splashDamageRadius": 60,
+      "status": "slow",
+      "statusDuration": 360
+    }
+  },
+  "hasLiquids": true,
+  "liquidCapacity": 160,
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

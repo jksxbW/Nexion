@@ -1,0 +1,34 @@
+{
+  "type": "ForceProjector",
+  "name": "Resonanz-Schutzschild (Erekir)",
+  "description": "Schildprojektor mit Resonanzkristallen und hoher Feldstaerke.",
+  "category": "defense",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "tungsten/260",
+    "oxide/140",
+    "carbide/56",
+    "resonanzkristall/24"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/260",
+      "oxide/140"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "consumes": {
+    "power": 20
+  },
+  "radius": 175,
+  "shieldHealth": 10500,
+  "phaseShieldBoost": 1600,
+  "phaseRadiusBoost": 18,
+  "phaseUseTime": 420,
+  "cooldownNormal": 1.7
+}

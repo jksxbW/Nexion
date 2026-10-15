@@ -1,0 +1,28 @@
+{
+  "type": "PowerNode",
+  "name": "Hyper-Knoten · Erekir",
+  "description": "Für Erekir angepasst. Großer Hochspannungs-Knoten für riesige Endgame-Netze. Reichweitenstark, stabil und passend für die neue Reaktor-Generation.",
+  "category": "power",
+  "size": 2,
+  "health": 520,
+  "requirements": [
+    "beryllium/120",
+    "tungsten/80",
+    "silicon/70",
+    "carbide/25"
+  ],
+  "laserRange": 13,
+  "maxNodes": 10,
+  "laserColor1": "ffd37f",
+  "laserColor2": "7fd4ff",
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/260",
+      "silicon/360"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

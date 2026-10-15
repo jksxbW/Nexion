@@ -1,0 +1,57 @@
+{
+  "type": "LiquidTurret",
+  "name": "Ionensturm-Turm (Erekir)",
+  "description": "Versprueht Ionenplasma und stoert feindliche Elektronik.",
+  "category": "turret",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "tungsten/260",
+    "oxide/140",
+    "carbide/56",
+    "ionenkern/24"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/260",
+      "oxide/140"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": true,
+  "liquidCapacity": 140,
+  "consumes": {
+    "power": 13
+  },
+  "range": 318,
+  "reload": 38,
+  "rotateSpeed": 2.9,
+  "recoil": 2.4,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "ionenplasma": {
+      "type": "LiquidBulletType",
+      "liquid": "ionenplasma",
+      "speed": 4.8,
+      "lifetime": 67,
+      "damage": 64,
+      "puddles": 3,
+      "puddleRange": 14,
+      "puddleAmount": 11,
+      "ammoMultiplier": 1,
+      "collidesAir": true,
+      "collidesGround": true,
+      "hitEffect": "hitLiquid",
+      "status": "electrified",
+      "statusDuration": 360
+    }
+  }
+}

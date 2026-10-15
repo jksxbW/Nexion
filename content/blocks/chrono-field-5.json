@@ -1,0 +1,44 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Fluxkompensator I",
+  "description": "5x-Zeitfeld im Umkreis für eigene übertaktbare Gebäude. Treibstoffverbrauch: sparsam: 1 Chronon-Zelle alle 6 Sekunden. Beschleunigt keine Gegner und benötigt keine direkten Maschinenanschlüsse. Die reale Geschwindigkeit hängt von Ressourcen und Engine-Grenzen ab.",
+  "category": "effect",
+  "size": 3,
+  "health": 1100,
+  "hasPower": true,
+  "hasItems": true,
+  "hasBoost": false,
+  "itemCapacity": 40,
+  "requirements": [
+    "titanium/280",
+    "silicon/260",
+    "plastanium/130",
+    "phase-fabric/85",
+    "chronon-cell/5"
+  ],
+  "consumes": {
+    "power": 12.0,
+    "items": [
+      "chronon-cell/1"
+    ]
+  },
+  "useTime": 360.0,
+  "speedBoost": 5.0,
+  "speedBoostPhase": 0.0,
+  "phaseRangeBoost": 0.0,
+  "reload": 240.0,
+  "range": 152.0,
+  "baseColor": "84f491",
+  "phaseColor": "84f491",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/1150",
+      "silicon/920",
+      "surge-alloy/220"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

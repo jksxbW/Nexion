@@ -1,0 +1,36 @@
+{
+  "type": "Battery",
+  "name": "Omega-Speicher · Erekir",
+  "description": "Automatischer Hochkapazitaets-Energiespeicher mit 1.000.000.000 Energie. Laedt bei Ueberschuss und liefert Strom bei Bedarf - ganz ohne Logikprozessor.",
+  "category": "power",
+  "size": 8,
+  "health": 3900,
+  "requirements": [
+    "silicon/2200",
+    "tungsten/1900",
+    "carbide/1300",
+    "oxide/900",
+    "quantum-matter/700",
+    "flux-core/120"
+  ],
+  "consumes": {
+    "powerBuffered": 1000000000
+  },
+  "baseExplosiveness": 9.890909090909092,
+  "emptyLightColor": "233443",
+  "fullLightColor": "80d6f5",
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "silicon/1210",
+      "tungsten/1045",
+      "carbide/715",
+      "oxide/495",
+      "quantum-matter/385",
+      "flux-core/66"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

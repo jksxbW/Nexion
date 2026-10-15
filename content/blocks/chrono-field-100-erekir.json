@@ -1,0 +1,46 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Fluxkompensator IV · Erekir",
+  "description": "Für Erekir angepasst. 100x-Zeitfeld im Umkreis für eigene übertaktbare Gebäude. Treibstoffverbrauch: 1 seltener Fluxkern alle 10 Sekunden. Beschleunigt keine Gegner und benötigt keine direkten Maschinenanschlüsse. Nur für Testkarten auf iOS: Extremboost kann Ruckler, fehlende Schüsse und Produktionsgrenzen verursachen.",
+  "category": "effect",
+  "size": 4,
+  "health": 1300,
+  "hasPower": true,
+  "hasItems": true,
+  "hasBoost": false,
+  "itemCapacity": 20,
+  "requirements": [
+    "tungsten/950",
+    "silicon/850",
+    "oxide/1140",
+    "carbide/450",
+    "quantum-matter/210",
+    "flux-core/12"
+  ],
+  "consumes": {
+    "power": 170.0,
+    "items": [
+      "flux-core/1"
+    ]
+  },
+  "useTime": 600.0,
+  "speedBoost": 100.0,
+  "speedBoostPhase": 0.0,
+  "phaseRangeBoost": 0.0,
+  "reload": 120.0,
+  "range": 112.0,
+  "baseColor": "d89bff",
+  "phaseColor": "d89bff",
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "carbide/570",
+      "oxide/550",
+      "quantum-matter/225",
+      "antimatter-ampoule/12"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

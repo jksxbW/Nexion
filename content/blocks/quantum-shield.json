@@ -1,0 +1,37 @@
+{
+  "type": "ForceProjector",
+  "name": "Quanten-Schutzschild",
+  "description": "Großes High-End-Schutzschild im stärker Mindustry-nahen Design. Ideal zum Sichern teurer Reaktor- und Turmanlagen.",
+  "category": "effect",
+  "size": 4,
+  "health": 1900,
+  "radius": 194.0,
+  "shieldHealth": 7800.0,
+  "sides": 8,
+  "shieldRotation": 22.5,
+  "cooldownNormal": 2.8,
+  "cooldownLiquid": 2.1,
+  "cooldownBrokenBase": 0.35,
+  "consumes": {
+    "power": 90.0
+  },
+  "requirements": [
+    "silicon/710",
+    "titanium/620",
+    "plastanium/440",
+    "surge-alloy/430",
+    "phase-fabric/260",
+    "quantum-matter/140"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/750",
+      "silicon/620",
+      "thorium/270"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

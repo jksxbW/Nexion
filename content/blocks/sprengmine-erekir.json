@@ -1,0 +1,28 @@
+{
+  "type": "ShockMine",
+  "name": "Sprengmine · Erekir",
+  "description": "Einweg-Kontaktmine. Explodiert bei Berührung durch feindliche Bodeneinheiten und zerstört sich nach der ersten Auslösung selbst. Schockketten statt eines kreisförmigen Explosionsradius. Klasse 5 ist eine Stufe, kein Radius von 5 Feldern.",
+  "category": "effect",
+  "size": 1,
+  "health": 180,
+  "hasShadow": false,
+  "damage": 55,
+  "length": 10,
+  "tendrils": 6,
+  "cooldown": 2.0,
+  "tileDamage": 205.0,
+  "requirements": [
+    "beryllium/30",
+    "silicon/30"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/30",
+      "silicon/30"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

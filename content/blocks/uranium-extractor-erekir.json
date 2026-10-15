@@ -1,0 +1,47 @@
+{
+  "type": "GenericCrafter",
+  "name": "Uran-Rueckgewinnungsanlage · Erekir",
+  "description": "Rückgewinnungsanlage für Erekir: verarbeitet Wolfram und Sand zu Uranerz. Der neue Uran-Spurenfilter kommt ohne Sand aus.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1040,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 40,
+  "requirements": [
+    "beryllium/210",
+    "tungsten/160",
+    "silicon/290"
+  ],
+  "consumes": {
+    "power": 9.0,
+    "items": [
+      "tungsten/4",
+      "sand/6"
+    ]
+  },
+  "outputItem": "uranium-ore/8",
+  "craftTime": 360,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/430",
+      "silicon/630"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "rotateSpeed": 1.215,
+      "spinSprite": true
+    }
+  ],
+  "shownPlanets": [
+    "erekir"
+  ]
+}

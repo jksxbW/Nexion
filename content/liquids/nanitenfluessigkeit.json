@@ -1,0 +1,19 @@
+{
+  "name": "Nanitenfluessigkeit",
+  "description": "Silberblaue Naniten-Suspension fuer automatische Basisreparaturen.",
+  "color": "b1e2e8",
+  "barColor": "b1e2e8",
+  "lightColor": "b1e2e880",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "flammability": 0,
+  "explosiveness": 0,
+  "gas": false,
+  "temperature": 0.32,
+  "heatCapacity": 0.8,
+  "viscosity": 0.7,
+  "effect": "none"
+}

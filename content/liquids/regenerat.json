@@ -1,0 +1,20 @@
+{
+  "name": "Regenerat",
+  "description": "Sanftes Naniten-Regenerationsfluid fuer Reparaturfelder.",
+  "color": "82f8b8",
+  "barColor": "82f8b8",
+  "lightColor": "82f8b880",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "flammability": 0,
+  "explosiveness": 0,
+  "gas": false,
+  "temperature": 0.2,
+  "heatCapacity": 1.05,
+  "viscosity": 0.64,
+  "blockReactive": false,
+  "effect": "none"
+}

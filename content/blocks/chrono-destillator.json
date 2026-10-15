@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Chrono-Destillator",
+  "description": "Gewinnt Chrono-Essenz aus Quantenmaterie und Wasser.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1680,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "quantum-matter/90"
+  ],
+  "consumes": {
+    "power": 23,
+    "items": [
+      "quantum-matter/1",
+      "chronon-cell/1"
+    ],
+    "liquid": "water/0.20"
+  },
+  "craftTime": 150,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputLiquid": "chrono-essenz/0.28",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.35,
+      "spinSprite": true
+    }
+  ]
+}

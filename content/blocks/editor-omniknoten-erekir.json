@@ -1,0 +1,28 @@
+{
+  "type": "PowerNode",
+  "name": "NEXION-Omniknoten (Editor) · Erekir",
+  "description": "Nur im Sandbox-/Editor-Modus. 128 Verbindungen und 40 Felder Reichweite. Stromknoten haben keinen eigenen Durchsatzdeckel; das gesamte Netz begrenzt die Leistung. Sehr viele Stromlinien koennen auf iPhones Leistung kosten.",
+  "category": "power",
+  "size": 2,
+  "health": 4000,
+  "laserRange": 40,
+  "maxNodes": 128,
+  "laserScale": 0.2,
+  "laserColor1": "ffc086",
+  "laserColor2": "f1a274",
+  "autolink": true,
+  "drawRange": false,
+  "buildVisibility": "sandboxOnly",
+  "requirements": [
+    "beryllium/1"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/1"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

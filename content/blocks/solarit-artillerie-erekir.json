@@ -1,0 +1,63 @@
+{
+  "type": "ItemTurret",
+  "name": "Solarit-Artillerie (Erekir)",
+  "description": "Solarit-Schwerkanone mit brennenden Splittergeschossen.",
+  "category": "turret",
+  "size": 5,
+  "health": 2900,
+  "requirements": [
+    "tungsten/325",
+    "oxide/175",
+    "carbide/70",
+    "solarit/30"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/325",
+      "oxide/175"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "liquidCapacity": 140,
+  "consumes": {
+    "power": 19
+  },
+  "range": 425,
+  "reload": 72,
+  "rotateSpeed": 2.9,
+  "recoil": 2.4,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "solarit": {
+      "type": "BasicBulletType",
+      "speed": 5.7,
+      "lifetime": 82,
+      "damage": 250,
+      "width": 12,
+      "height": 22,
+      "frontColor": "ffce6d",
+      "backColor": "374251",
+      "hitColor": "ffce6d",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "splashDamage": 162,
+      "splashDamageRadius": 85,
+      "collidesAir": true,
+      "collidesGround": true,
+      "ammoMultiplier": 1.0,
+      "status": "burning",
+      "statusDuration": 360
+    }
+  },
+  "maxAmmo": 60,
+  "ammoPerShot": 1
+}

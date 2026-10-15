@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Neutronenverdichter",
+  "description": "Komprimiert Uran, Thorium und Titan zu Neutronium.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1680,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "uranium-rod/12"
+  ],
+  "consumes": {
+    "power": 38,
+    "items": [
+      "uranium-rod/1",
+      "thorium/3",
+      "titanium/3"
+    ]
+  },
+  "craftTime": 210,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputItem": "neutronium/1",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.35,
+      "spinSprite": true
+    }
+  ]
+}

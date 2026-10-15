@@ -1,0 +1,24 @@
+{
+  "type": "Wall",
+  "name": "Neutronium-Bollwerk · Erekir",
+  "description": "Massiver 3x3-Endgame-Schutz aus Neutronium.",
+  "category": "defense",
+  "size": 3,
+  "health": 16200,
+  "requirements": [
+    "tungsten/210",
+    "oxide/140",
+    "neutronium/90"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/210",
+      "oxide/140"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "armor": 32
+}

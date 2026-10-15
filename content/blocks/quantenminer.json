@@ -1,0 +1,79 @@
+{
+  "type": "Separator",
+  "name": "Quantenminer",
+  "description": "Zweite Stufe des Quanten-Erzsystems. Verbraucht pro Versuch 1 Quantenladung und erzeugt zufällig 1 Material oder Quanten-Rueckstand. Ein Uran-Brennstab ergibt im Quanten-Spalter 10 Ladungen; dadurch sind maximal 10 Erzgewinne pro Brennstab moeglich. Kupfer ist haeufig, seltene Materialien sind deutlich seltener. Antimaterie-Chance: 1 zu 1.000.000 je Ladung, ungefaehr 1 zu 100.000 je Brennstab.",
+  "category": "crafting",
+  "size": 4,
+  "health": 2050,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 120,
+  "requirements": [
+    "titanium/320",
+    "silicon/280",
+    "thorium/210",
+    "uranium-rod/12",
+    "quantum-matter/8"
+  ],
+  "consumes": {
+    "power": 24.0,
+    "items": [
+      "quanten-ladung/1"
+    ]
+  },
+  "results": [
+    "copper/101684",
+    "lead/79801",
+    "graphite/68401",
+    "silicon/62701",
+    "titanium/54150",
+    "coal/45600",
+    "thorium/37050",
+    "beryllium/27360",
+    "tungsten/19950",
+    "oxide/17100",
+    "uranium-ore/14250",
+    "plastanium/11400",
+    "metaglass/9120",
+    "carbide/7410",
+    "phase-fabric/5700",
+    "surge-alloy/3990",
+    "enriched-uranium/2850",
+    "quantum-matter/1140",
+    "flux-core/285",
+    "chronon-cell/57",
+    "quanten-rueckstand/430000",
+    "antimatter-ampoule/1"
+  ],
+  "craftTime": 18.0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 2.25,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring2",
+      "rotateSpeed": -3.5,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/320",
+      "silicon/280"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

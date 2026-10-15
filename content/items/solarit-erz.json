@@ -1,0 +1,12 @@
+{
+  "name": "Solariterz",
+  "description": "Sonnengetraenktes Erz. In Editor-Karten abbaubar oder in der Solarit-Extraktion erzeugbar.",
+  "color": "ffce6d",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 9.8,
+  "hardness": 7
+}

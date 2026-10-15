@@ -1,0 +1,12 @@
+{
+  "name": "Kryonit",
+  "description": "Tieffrost-Kristall fuer Kryo-Waffen und Frostminen.",
+  "color": "93daff",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 5,
+  "hardness": 5
+}

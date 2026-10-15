@@ -1,0 +1,23 @@
+{
+  "type": "Router",
+  "name": "Antimaterie-Verteiler",
+  "description": "Passender Verteiler für das Antimaterie-Leitnetz. Leitet Ampullen sauber auf mehrere Leitbänder um.",
+  "category": "distribution",
+  "health": 120,
+  "requirements": [
+    "copper/4",
+    "lead/5",
+    "silicon/2",
+    "titanium/2"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/180",
+      "lead/120"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Pyrodit-Schmelzerei · Erekir",
+  "description": "Alternative Herstellung von Pyronium aus gefördertem Pyrodit. Die alte Pyronium-Schmiede bleibt erhalten.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1170,
+  "requirements": [
+    "tungsten/140",
+    "oxide/95",
+    "carbide/35"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/140",
+      "oxide/95"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": -1.28,
+      "spinSprite": true
+    }
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 60,
+  "consumes": {
+    "power": 22,
+    "items": [
+      "pyrodit-erz/3",
+      "carbide/1"
+    ]
+  },
+  "outputItem": "pyronium/2",
+  "craftTime": 105,
+  "craftEffect": "smeltsmoke"
+}

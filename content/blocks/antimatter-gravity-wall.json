@@ -1,0 +1,50 @@
+{
+  "type": "Wall",
+  "name": "Antimaterie-Gravitationsmauer",
+  "description": "Reagiert auf Treffer mit Entladungen. Bei Zerstoerung opfert sich die Mauer fuer eine gewaltige Antimateriedetonation. iOS: kein echtes Anziehen.",
+  "category": "defense",
+  "size": 2,
+  "health": 1120,
+  "armor": 11,
+  "requirements": [
+    "phase-fabric/46",
+    "plastanium/75",
+    "surge-alloy/32",
+    "antimatter-ampoule/1"
+  ],
+  "lightningChance": 0.3,
+  "lightningDamage": 180.0,
+  "lightningLength": 19,
+  "lightningColor": "e887ff",
+  "flashHit": true,
+  "flashColor": "bc65f5",
+  "destroyBulletSameTeam": true,
+  "destroyBullet": {
+    "type": "BasicBulletType",
+    "speed": 0,
+    "damage": 0,
+    "lifetime": 1,
+    "width": 0,
+    "height": 0,
+    "collides": false,
+    "hittable": false,
+    "splashDamage": 1080,
+    "splashDamageRadius": 94,
+    "status": "sapped",
+    "statusDuration": 210,
+    "hitEffect": "blastExplosion",
+    "despawnEffect": "none",
+    "despawnHit": true
+  },
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/1150",
+      "silicon/920",
+      "surge-alloy/220"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

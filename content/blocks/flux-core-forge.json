@@ -1,0 +1,59 @@
+{
+  "type": "GenericCrafter",
+  "name": "Fluxkern-Schmiede",
+  "description": "Verschmilzt Chronon-Zellen, Quanten-Materie, Phasengewebe, Surge-Alloy und Antimaterie zu einem extrem teuren Fluxkern. Ohne Fluxkerne funktionieren die 100x- und 1000x-Felder nicht.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1860,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 90,
+  "requirements": [
+    "titanium/650",
+    "silicon/540",
+    "plastanium/400",
+    "surge-alloy/300",
+    "phase-fabric/300",
+    "quantum-matter/125",
+    "chronon-cell/24"
+  ],
+  "consumes": {
+    "power": 105.0,
+    "items": [
+      "chronon-cell/5",
+      "quantum-matter/3",
+      "phase-fabric/2",
+      "surge-alloy/2",
+      "antimatter-ampoule/1"
+    ]
+  },
+  "outputItem": "flux-core/1",
+  "craftTime": 360,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": -2.43,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "surge-alloy/420",
+      "phase-fabric/280",
+      "quantum-matter/90"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

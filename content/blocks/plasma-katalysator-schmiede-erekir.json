@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Plasma-Katalysator-Schmiede (Erekir)",
+  "description": "Presst reaktive Metalle zu energiereichen Plasma-Katalysatoren.",
+  "category": "crafting",
+  "health": 1250,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 45,
+  "requirements": [
+    "tungsten/210",
+    "silicon/220",
+    "oxide/90"
+  ],
+  "consumes": {
+    "power": 8.0,
+    "items": [
+      "tungsten/2",
+      "silicon/2",
+      "carbide/1"
+    ]
+  },
+  "outputItem": "plasma-katalysator/1",
+  "craftTime": 100,
+  "craftEffect": "smeltsmoke",
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/80",
+      "tungsten/40"
+    ]
+  },
+  "size": 3
+}

@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "Dunkelmaterie-Synthesizer",
+  "description": "Verschraenkt Antimaterie-Ampullen und Quantenmaterie zu Dunkler Materie.",
+  "category": "crafting",
+  "size": 5,
+  "health": 2100,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "quantum-matter/100",
+    "antimatter-ampoule/8"
+  ],
+  "consumes": {
+    "power": 100,
+    "items": [
+      "quantum-matter/4",
+      "antimatter-ampoule/1",
+      "neutronium/1"
+    ]
+  },
+  "craftTime": 360,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputItem": "dunkle-materie/1",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.35,
+      "spinSprite": true
+    }
+  ]
+}

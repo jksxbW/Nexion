@@ -1,0 +1,74 @@
+{
+  "type": "ItemTurret",
+  "name": "Uran-Lanze · Erekir",
+  "description": "Für Erekir angepasst. Uran-Lanze Mk II: zielstabile Panzerbrecher mit verbesserter Luftabwehr. Die Geschosse treffen fliegende und Bodenziele mit direktem Treffer und Flächenschaden.",
+  "category": "turret",
+  "size": 4,
+  "health": 1750,
+  "range": 370,
+  "reload": 42,
+  "rotateSpeed": 4.5,
+  "recoil": 5,
+  "shake": 2.5,
+  "maxAmmo": 25,
+  "ammoPerShot": 1,
+  "shootSound": "artillery",
+  "targetAir": true,
+  "hasPower": true,
+  "requirements": [
+    "tungsten/470",
+    "oxide/220",
+    "silicon/350",
+    "carbide/200",
+    "uranium-rod/50"
+  ],
+  "consumes": {
+    "power": 14.0
+  },
+  "ammoTypes": {
+    "uranium-rod": {
+      "type": "BasicBulletType",
+      "speed": 8.5,
+      "lifetime": 48,
+      "damage": 370,
+      "width": 13,
+      "height": 25,
+      "pierce": false,
+      "pierceBuilding": false,
+      "pierceCap": -1,
+      "pierceArmor": true,
+      "splashDamage": 170,
+      "splashDamageRadius": 48,
+      "backColor": "81b54b",
+      "frontColor": "efffc2",
+      "hitColor": "c4ff6b",
+      "trailColor": "9fe777",
+      "trailWidth": 2.3,
+      "trailLength": 8,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "hitBulletColor",
+      "ammoMultiplier": 1,
+      "hitSize": 13,
+      "collides": true,
+      "collidesAir": true,
+      "collidesGround": true,
+      "collidesTiles": true,
+      "homingPower": 0.09,
+      "homingRange": 84,
+      "scaledSplashDamage": false,
+      "despawnHit": true
+    }
+  },
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/430",
+      "silicon/630"
+    ]
+  },
+  "targetGround": true,
+  "shootCone": 8,
+  "shownPlanets": [
+    "erekir"
+  ]
+}

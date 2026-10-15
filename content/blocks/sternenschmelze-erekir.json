@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sternenschmelze (Erekir)",
+  "description": "Verschmilzt Plasma mit Thorium und Neutronium zu Sternenplasma.",
+  "category": "crafting",
+  "size": 5,
+  "health": 2100,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "neutronium/65",
+    "plasma-katalysator/30"
+  ],
+  "consumes": {
+    "power": 65,
+    "items": [
+      "carbide/2",
+      "neutronium/1"
+    ],
+    "liquid": "plasma/0.24"
+  },
+  "craftTime": 240,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputLiquid": "sternenplasma/0.16",
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": -1.25,
+      "spinSprite": true
+    }
+  ]
+}

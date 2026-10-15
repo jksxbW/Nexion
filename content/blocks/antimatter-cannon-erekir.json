@@ -1,0 +1,71 @@
+{
+  "type": "ItemTurret",
+  "name": "Antimaterie-Schleuder-Kanone · Erekir",
+  "description": "Für Erekir angepasst. Schwere Antimaterie-Artillerie, jetzt mit Luftabwehr-Funktion. Explosive Geschosse treffen feindliche Flieger und Bodentruppen direkt.",
+  "category": "turret",
+  "size": 4,
+  "health": 1770,
+  "range": 390,
+  "minRange": 65,
+  "reload": 98,
+  "rotateSpeed": 3.1,
+  "recoil": 5.4,
+  "shake": 3.0,
+  "maxAmmo": 18,
+  "ammoPerShot": 1,
+  "shootSound": "artillery",
+  "targetAir": true,
+  "hasPower": true,
+  "requirements": [
+    "tungsten/660",
+    "oxide/730",
+    "carbide/440",
+    "quantum-matter/100",
+    "antimatter-ampoule/12"
+  ],
+  "consumes": {
+    "power": 11.0
+  },
+  "ammoTypes": {
+    "antimatter-ampoule": {
+      "type": "ArtilleryBulletType",
+      "speed": 4.7,
+      "damage": 310,
+      "lifetime": 89,
+      "width": 21,
+      "height": 25,
+      "splashDamage": 730,
+      "splashDamageRadius": 76,
+      "pierceArmor": true,
+      "backColor": "8e41d7",
+      "frontColor": "f2b1ff",
+      "hitColor": "d980fa",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1,
+      "status": "sapped",
+      "statusDuration": 190,
+      "collidesTiles": false,
+      "fragBullets": 0,
+      "collides": true,
+      "collidesAir": true,
+      "collidesGround": true,
+      "hitSize": 17,
+      "despawnHit": true
+    }
+  },
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/950",
+      "silicon/880",
+      "oxide/350",
+      "carbide/100"
+    ]
+  },
+  "shootCone": 10,
+  "targetGround": true,
+  "shownPlanets": [
+    "erekir"
+  ]
+}

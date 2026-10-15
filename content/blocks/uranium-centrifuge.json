@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Uran-Zentrifuge",
+  "description": "Reinigt Uranerz mit Sand zu angereichertem Uran. Danach ist eine Brennstab-Presse erforderlich.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1200,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 48,
+  "requirements": [
+    "titanium/240",
+    "silicon/180",
+    "graphite/160",
+    "thorium/95"
+  ],
+  "consumes": {
+    "power": 16.0,
+    "items": [
+      "uranium-ore/8",
+      "sand/3"
+    ]
+  },
+  "outputItem": "enriched-uranium/2",
+  "craftTime": 220,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/420",
+      "silicon/340",
+      "graphite/230"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "rotateSpeed": 3.645,
+      "spinSprite": true
+    }
+  ],
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

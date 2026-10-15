@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Graviton-Destillator (Erekir)",
+  "description": "Destilliert dunkle Materie und Neutronenfluid zu Gravitonfluid.",
+  "category": "crafting",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "tungsten/260",
+    "oxide/140",
+    "carbide/56",
+    "graviplatte/24"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/260",
+      "oxide/140"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 90,
+  "craftTime": 120,
+  "craftEffect": "smeltsmoke",
+  "liquidCapacity": 180,
+  "consumes": {
+    "power": 44,
+    "items": [
+      "dunkle-materie/1",
+      "graviplatte/1"
+    ],
+    "liquid": "neutronenfluid/0.12"
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": -1.2,
+      "spinSprite": true
+    }
+  ],
+  "outputLiquid": "gravitonfluid/0.18"
+}

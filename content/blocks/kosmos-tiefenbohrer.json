@@ -1,0 +1,31 @@
+{
+  "type": "Drill",
+  "name": "Kosmos-Tiefenbohrer",
+  "description": "Hochfester Erzbohrer fuer Astralit- und Solaritadern. Die Adern muessen im Editor gesetzt werden.",
+  "category": "production",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "titanium/280",
+    "silicon/180",
+    "thorium/100",
+    "neutronium/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/280",
+      "silicon/180"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "tier": 9,
+  "drillTime": 170,
+  "liquidBoostIntensity": 1.35,
+  "consumes": {
+    "power": 18
+  }
+}

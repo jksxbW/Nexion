@@ -1,0 +1,28 @@
+{
+  "type": "PowerNode",
+  "name": "NEXION-Omniknoten (Editor)",
+  "description": "Nur im Sandbox-/Editor-Modus. 128 Verbindungen und 40 Felder Reichweite. Stromknoten haben keinen eigenen Durchsatzdeckel; das gesamte Netz begrenzt die Leistung. Sehr viele Stromlinien koennen auf iPhones Leistung kosten.",
+  "category": "power",
+  "size": 2,
+  "health": 4000,
+  "laserRange": 40,
+  "maxNodes": 128,
+  "laserScale": 0.2,
+  "laserColor1": "90f7ff",
+  "laserColor2": "3889ff",
+  "autolink": true,
+  "drawRange": false,
+  "buildVisibility": "sandboxOnly",
+  "requirements": [
+    "copper/1"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/1"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "Kryo-Superkanone (Erekir)",
+  "description": "Kryonit-Geschosse verursachen Gefrierschaden und verlangsamen Gegner.",
+  "category": "turret",
+  "size": 4,
+  "health": 1880,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "kryonit/160"
+  ],
+  "hasPower": true,
+  "range": 365,
+  "reload": 60,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "consumes": {
+    "power": 20
+  },
+  "ammoTypes": {
+    "kryonit": {
+      "type": "BasicBulletType",
+      "speed": 5.2,
+      "lifetime": 90,
+      "damage": 120,
+      "width": 14,
+      "height": 20,
+      "frontColor": "93daff",
+      "backColor": "52627a",
+      "hitColor": "93daff",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 225,
+      "splashDamageRadius": 70,
+      "status": "freezing",
+      "statusDuration": 330
+    }
+  },
+  "maxAmmo": 40,
+  "ammoPerShot": 1,
+  "hasItems": true,
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  }
+}

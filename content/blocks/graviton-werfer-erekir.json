@@ -1,0 +1,57 @@
+{
+  "type": "LiquidTurret",
+  "name": "Graviton-Werfer (Erekir)",
+  "description": "Schiesst Gravitonfluid; Getroffene werden verlangsamt.",
+  "category": "turret",
+  "size": 5,
+  "health": 2900,
+  "requirements": [
+    "tungsten/325",
+    "oxide/175",
+    "carbide/70",
+    "ionenkern/30"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/325",
+      "oxide/175"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": true,
+  "liquidCapacity": 140,
+  "consumes": {
+    "power": 21
+  },
+  "range": 355,
+  "reload": 72,
+  "rotateSpeed": 2.9,
+  "recoil": 2.4,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "gravitonfluid": {
+      "type": "LiquidBulletType",
+      "liquid": "gravitonfluid",
+      "speed": 4.8,
+      "lifetime": 67,
+      "damage": 105,
+      "puddles": 3,
+      "puddleRange": 14,
+      "puddleAmount": 11,
+      "ammoMultiplier": 1,
+      "collidesAir": true,
+      "collidesGround": true,
+      "hitEffect": "hitLiquid",
+      "status": "slow",
+      "statusDuration": 240
+    }
+  }
+}

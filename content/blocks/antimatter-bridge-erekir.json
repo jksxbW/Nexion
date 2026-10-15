@@ -1,0 +1,25 @@
+{
+  "type": "BufferedItemBridge",
+  "name": "Antimaterie-Brücke · Erekir",
+  "description": "Für Erekir angepasst. Kurzstrecken-Transfer für Ampullen über Lücken, Wände oder Maschinen hinweg.",
+  "category": "distribution",
+  "health": 160,
+  "requirements": [
+    "beryllium/10",
+    "silicon/14",
+    "oxide/2"
+  ],
+  "range": 8,
+  "speed": 60,
+  "bufferCapacity": 20,
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/260",
+      "silicon/360"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

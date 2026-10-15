@@ -1,0 +1,55 @@
+{
+  "type": "GenericCrafter",
+  "name": "Uran-Brennstab-Presse",
+  "description": "Presst angereichertes Uran unter Hochdruck in ummantelte Brennstaebe. Ohne diese kann das Fissionskraftwerk nicht arbeiten.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1340,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 50,
+  "requirements": [
+    "titanium/310",
+    "silicon/260",
+    "graphite/180",
+    "plastanium/90",
+    "enriched-uranium/25"
+  ],
+  "consumes": {
+    "power": 25.0,
+    "items": [
+      "enriched-uranium/3",
+      "titanium/2",
+      "silicon/1"
+    ]
+  },
+  "outputItem": "uranium-rod/2",
+  "craftTime": 240,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "rotateSpeed": 2.295,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/420",
+      "silicon/340",
+      "graphite/230"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Neutronit-Raffinerie · Erekir",
+  "description": "Alternative Neutronium-Fertigung aus abgebautem Neutroniterz. Der klassische Neutronenverdichter bleibt unveraendert.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1170,
+  "requirements": [
+    "tungsten/140",
+    "oxide/95",
+    "carbide/35"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/140",
+      "oxide/95"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": -1.28,
+      "spinSprite": true
+    }
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 60,
+  "consumes": {
+    "power": 24,
+    "items": [
+      "neutronit-erz/3",
+      "tungsten/2"
+    ]
+  },
+  "outputItem": "neutronium/2",
+  "craftTime": 120,
+  "craftEffect": "smeltsmoke"
+}

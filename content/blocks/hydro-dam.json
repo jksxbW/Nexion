@@ -1,0 +1,58 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Hydro-Staudamm",
+  "description": "Hydraulisches Kraftwerk mit animierter Schleuse! Pumpen liefern Wasser, eine Turbine erzeugt maximal 1440 Energie pro Sekunde und gibt einen Teil des Wassers wieder aus. Die Torbewegung ist eine Visualisierung; links/rechts kann die JSON-Mod nicht fest erzwingen.",
+  "category": "power",
+  "size": 4,
+  "health": 1950,
+  "requirements": [
+    "lead/500",
+    "graphite/330",
+    "titanium/480",
+    "silicon/340",
+    "metaglass/270",
+    "plastanium/180",
+    "surge-alloy/55"
+  ],
+  "hasLiquids": true,
+  "hasPower": true,
+  "liquidCapacity": 120,
+  "powerProduction": 24.0,
+  "warmupSpeed": 0.07,
+  "effectChance": 0,
+  "consumes": {
+    "liquid": "water/1.2"
+  },
+  "outputLiquid": "water/0.9",
+  "explodeOnFull": false,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-turbine",
+      "rotateSpeed": 5.13,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawFrames",
+      "frames": 4,
+      "interval": 15.0,
+      "sine": false
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-frame-top"
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/420",
+      "silicon/340",
+      "graphite/230"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

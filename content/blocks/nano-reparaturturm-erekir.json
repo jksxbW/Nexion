@@ -1,0 +1,34 @@
+{
+  "type": "MendProjector",
+  "name": "Nano-Reparaturturm (Erekir)",
+  "description": "Verbraucht Nanitenfluessigkeit und repariert damit Gebaeude in Reichweite.",
+  "category": "effect",
+  "size": 3,
+  "health": 1050,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 180,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "neutronium/35"
+  ],
+  "consumes": {
+    "power": 10,
+    "liquid": "nanitenfluessigkeit/0.06"
+  },
+  "range": 95,
+  "reload": 150,
+  "healPercent": 14,
+  "baseColor": "b1e2e8",
+  "phaseColor": "ddf6ff",
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  }
+}

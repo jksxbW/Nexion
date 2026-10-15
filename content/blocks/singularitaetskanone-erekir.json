@@ -1,0 +1,62 @@
+{
+  "type": "ItemTurret",
+  "name": "Singularitaetskanone (Erekir)",
+  "description": "Abgefeuerte Dunkelmaterie destabilisiert das Ziel und erzeugt riesigen Flaechenschaden mit verlangsamenden Nachwirkungen.",
+  "category": "turret",
+  "size": 7,
+  "health": 3290,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "dunkle-materie/170",
+    "neutronium/200"
+  ],
+  "hasPower": true,
+  "range": 590,
+  "reload": 290,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "artillery",
+  "consumes": {
+    "power": 90
+  },
+  "ammoTypes": {
+    "dunkle-materie": {
+      "type": "ArtilleryBulletType",
+      "speed": 3.2,
+      "lifetime": 145,
+      "damage": 450,
+      "width": 14,
+      "height": 20,
+      "frontColor": "a76bfb",
+      "backColor": "52627a",
+      "hitColor": "a76bfb",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 1850,
+      "splashDamageRadius": 150,
+      "status": "slow",
+      "statusDuration": 300,
+      "pierceArmor": true
+    }
+  },
+  "maxAmmo": 40,
+  "ammoPerShot": 1,
+  "hasItems": true,
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  }
+}

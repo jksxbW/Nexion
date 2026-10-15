@@ -1,0 +1,36 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Solarit-Generator (Erekir)",
+  "description": "Verbrennt Solarit als energiedichten Brennstoff.",
+  "category": "power",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "tungsten/260",
+    "oxide/140",
+    "carbide/56",
+    "solarit/24"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/260",
+      "oxide/140"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 50,
+  "liquidCapacity": 240,
+  "powerProduction": 350,
+  "warmupSpeed": 0.04,
+  "consumes": {
+    "items": [
+      "solarit/1"
+    ]
+  }
+}

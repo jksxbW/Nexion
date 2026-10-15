@@ -1,0 +1,8 @@
+{
+  "type": "OverlayFloor",
+  "name": "Astraliterz-Ader",
+  "itemDrop": "astralit-erz",
+  "variants": 3,
+  "hasColor": true,
+  "mapColor": "6edfff"
+}

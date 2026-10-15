@@ -1,0 +1,24 @@
+{
+  "type": "Wall",
+  "name": "Neutronium-Bollwerk",
+  "description": "Massiver 3x3-Endgame-Schutz aus Neutronium.",
+  "category": "defense",
+  "size": 3,
+  "health": 16200,
+  "requirements": [
+    "titanium/210",
+    "silicon/160",
+    "neutronium/90"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/210",
+      "silicon/160"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "armor": 32
+}

@@ -1,0 +1,57 @@
+{
+  "type": "GenericCrafter",
+  "name": "Chronon-Synthesizer · Erekir",
+  "description": "Für Erekir angepasst. Verdichtet Quanten-Materie, Phasengewebe und Surge-Alloy zu Chronon-Zellen. Hochenergie-Fertigung: sehr teuer, aber nötig für alle Zeitfelder.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1680,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 100,
+  "requirements": [
+    "tungsten/520",
+    "silicon/470",
+    "oxide/240",
+    "carbide/260",
+    "quantum-matter/105"
+  ],
+  "consumes": {
+    "power": 82.0,
+    "items": [
+      "quantum-matter/7",
+      "oxide/6",
+      "carbide/4",
+      "silicon/4"
+    ]
+  },
+  "outputItem": "chronon-cell/2",
+  "craftTime": 330,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 2.295,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/950",
+      "silicon/880",
+      "oxide/350",
+      "carbide/100"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

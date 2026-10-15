@@ -1,0 +1,53 @@
+{
+  "type": "GenericCrafter",
+  "name": "Kristallplasma-Fusion (Erekir)",
+  "description": "Verschmilzt fluessiges Plasma und Antimaterie-Ampullen zu Kristallplasma.",
+  "category": "crafting",
+  "health": 2100,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 90,
+  "liquidCapacity": 200,
+  "requirements": [
+    "carbide/380",
+    "oxide/330",
+    "quantum-matter/45",
+    "antimatter-ampoule/5"
+  ],
+  "consumes": {
+    "power": 55.0,
+    "items": [
+      "antimatter-ampoule/1",
+      "plasma-katalysator/1"
+    ],
+    "liquid": "plasma/0.16"
+  },
+  "outputLiquid": "kristallplasma/0.18",
+  "craftTime": 240,
+  "craftEffect": "smeltsmoke",
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/80",
+      "tungsten/40"
+    ]
+  },
+  "size": 4,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": -1.4,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ]
+}

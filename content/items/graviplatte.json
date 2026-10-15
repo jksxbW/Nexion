@@ -1,0 +1,12 @@
+{
+  "name": "Graviplatte",
+  "description": "Gravitationsstabile Panzerplatte fuer schwere Waffen und Mauern.",
+  "color": "bb87ff",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 11.2,
+  "hardness": 8
+}

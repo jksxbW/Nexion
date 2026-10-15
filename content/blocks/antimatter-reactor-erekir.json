@@ -1,0 +1,55 @@
+{
+  "type": "NuclearReactor",
+  "name": "Antimaterie-Reaktor · Erekir",
+  "description": "Antimaterie-Ampullen erzeugen extreme Energie. Braucht Neutronenfluessigkeit zur aktiven Kuehlung. Bei Kuehlmittelausfall Ueberhitzungs- und Explosionsgefahr.",
+  "category": "power",
+  "size": 5,
+  "health": 2300,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 190,
+  "requirements": [
+    "tungsten/1100",
+    "oxide/1410",
+    "carbide/810",
+    "quantum-matter/230",
+    "antimatter-ampoule/24",
+    "uranium-rod/18"
+  ],
+  "powerProduction": 2100.0,
+  "itemDuration": 540,
+  "explosionRadius": 48,
+  "explosionDamage": 22000,
+  "consumes": {
+    "item": "antimatter-ampoule",
+    "liquid": {
+      "liquid": "neutronenfluid",
+      "amount": 0.38,
+      "update": false
+    }
+  },
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/950",
+      "silicon/880",
+      "oxide/350",
+      "carbide/100"
+    ]
+  },
+  "fuelItem": "antimatter-ampoule",
+  "heating": 0.003,
+  "coolantPower": 0.28,
+  "smokeThreshold": 0.18,
+  "flashThreshold": 0.42,
+  "lightColor": "e388ff",
+  "hotColor": "f459bba3",
+  "explosionShake": 13,
+  "explodeEffect": "impactReactorExplosion",
+  "explodeSound": "explosionbig",
+  "shownPlanets": [
+    "erekir"
+  ]
+}

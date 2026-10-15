@@ -1,0 +1,32 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Plasma-Turbine (Erekir)",
+  "description": "Nutze heisses Plasma als hochenergetischen Brennstoff zur Stromproduktion.",
+  "category": "power",
+  "health": 1420,
+  "hasLiquids": true,
+  "hasPower": true,
+  "liquidCapacity": 110,
+  "powerProduction": 64.0,
+  "warmupSpeed": 0.06,
+  "effectChance": 0.01,
+  "requirements": [
+    "tungsten/290",
+    "oxide/200",
+    "plasma-katalysator/15"
+  ],
+  "consumes": {
+    "liquid": "plasma/0.10"
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/80",
+      "tungsten/40"
+    ]
+  },
+  "size": 3
+}

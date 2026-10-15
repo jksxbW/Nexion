@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Neutronen-Destillator",
+  "description": "Gewinnt Neutronenfluessigkeit aus Uranerz und Wasser.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1260,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "uranium-ore/30"
+  ],
+  "consumes": {
+    "power": 15,
+    "items": [
+      "uranium-ore/1"
+    ],
+    "liquid": "water/0.18"
+  },
+  "craftTime": 100,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputLiquid": "neutronenfluid/0.22",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.35,
+      "spinSprite": true
+    }
+  ]
+}

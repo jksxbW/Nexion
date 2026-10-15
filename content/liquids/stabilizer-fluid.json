@@ -1,0 +1,16 @@
+{
+  "name": "Quanten-Stabilisator",
+  "description": "Komplexer Kuehl- und Einschlussfluid fuer den Antimateriereaktor.",
+  "color": "61e4f4",
+  "lightColor": "61e4f466",
+  "temperature": 0.16,
+  "viscosity": 0.68,
+  "heatCapacity": 1.35,
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

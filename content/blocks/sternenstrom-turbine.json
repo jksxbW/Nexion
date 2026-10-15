@@ -1,0 +1,31 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Sternenstrom-Turbine",
+  "description": "Verbraucht vorhandenes Sternenplasma als Stromquelle. Zusaetzliche Verwendung fuer Sternenplasma ohne neue Materialien.",
+  "category": "power",
+  "size": 4,
+  "health": 1560,
+  "requirements": [
+    "titanium/230",
+    "silicon/170",
+    "neutronium/35",
+    "pyronium/30"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/230",
+      "silicon/170"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 210,
+  "powerProduction": 125,
+  "consumes": {
+    "liquid": "sternenplasma/0.12"
+  }
+}

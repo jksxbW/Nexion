@@ -1,0 +1,23 @@
+{
+  "type": "Wall",
+  "name": "Neutronium-Panzerwand",
+  "description": "Enorm widerstandsfaehige 2x2-Verteidigungswand.",
+  "category": "defense",
+  "size": 2,
+  "health": 9000,
+  "armor": 20,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "neutronium/40"
+  ],
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

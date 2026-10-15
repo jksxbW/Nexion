@@ -1,0 +1,88 @@
+{
+  "type": "ItemTurret",
+  "name": "Flux-Railgun · Erekir",
+  "description": "Für Erekir angepasst. Schnelle Flux-Railgun mit verlässlicher Flugabwehr und panzerbrechender Munition. Schießt Thorium und Surge-Alloy.",
+  "category": "turret",
+  "size": 3,
+  "health": 1460,
+  "range": 285,
+  "reload": 32,
+  "rotateSpeed": 5.0,
+  "recoil": 2.8,
+  "shake": 1.5,
+  "maxAmmo": 30,
+  "ammoPerShot": 1,
+  "shootSound": "shootBig",
+  "targetAir": true,
+  "hasPower": true,
+  "requirements": [
+    "beryllium/280",
+    "silicon/400",
+    "tungsten/210",
+    "carbide/55"
+  ],
+  "consumes": {
+    "power": 4.5
+  },
+  "ammoTypes": {
+    "thorium": {
+      "type": "BasicBulletType",
+      "speed": 8.0,
+      "damage": 145,
+      "width": 10,
+      "height": 16,
+      "lifetime": 36,
+      "backColor": "d8d0ff",
+      "frontColor": "ffffff",
+      "hitColor": "c8a4ff",
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "pierceArmor": true,
+      "status": "blasted",
+      "statusDuration": 60,
+      "ammoMultiplier": 1,
+      "collides": true,
+      "collidesAir": true,
+      "collidesGround": true,
+      "hitSize": 10,
+      "homingPower": 0.06,
+      "homingRange": 56
+    },
+    "carbide": {
+      "type": "BasicBulletType",
+      "speed": 8.8,
+      "damage": 185,
+      "width": 11,
+      "height": 17,
+      "lifetime": 36,
+      "backColor": "fbd367",
+      "frontColor": "ffffff",
+      "hitColor": "ffd37f",
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "pierceArmor": true,
+      "lightning": 2,
+      "lightningDamage": 22,
+      "lightningLength": 6,
+      "ammoMultiplier": 1,
+      "collides": true,
+      "collidesAir": true,
+      "collidesGround": true,
+      "hitSize": 10,
+      "homingPower": 0.06,
+      "homingRange": 56
+    }
+  },
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/710",
+      "silicon/620",
+      "oxide/200"
+    ]
+  },
+  "targetGround": true,
+  "shownPlanets": [
+    "erekir"
+  ]
+}

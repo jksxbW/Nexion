@@ -1,0 +1,36 @@
+{
+  "type": "Battery",
+  "name": "Mega-Speicher III",
+  "description": "Automatischer Hochkapazitaets-Energiespeicher mit 50.000.000 Energie. Laedt bei Ueberschuss und liefert Strom bei Bedarf - ganz ohne Logikprozessor.",
+  "category": "power",
+  "size": 6,
+  "health": 3200,
+  "requirements": [
+    "silicon/900",
+    "titanium/740",
+    "surge-alloy/470",
+    "phase-fabric/340",
+    "quantum-matter/160",
+    "chronon-cell/35"
+  ],
+  "consumes": {
+    "powerBuffered": 50000000
+  },
+  "baseExplosiveness": 1.2545454545454546,
+  "emptyLightColor": "233443",
+  "fullLightColor": "80d6f5",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "silicon/495",
+      "titanium/407",
+      "surge-alloy/258",
+      "phase-fabric/187",
+      "quantum-matter/88",
+      "chronon-cell/19"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

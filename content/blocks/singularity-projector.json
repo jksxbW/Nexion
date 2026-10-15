@@ -1,0 +1,89 @@
+{
+  "type": "ItemTurret",
+  "name": "Singularitaets-Projektor (Schwarzes Loch)",
+  "description": "Singularitäts-Projektor: schnellere Zielverfolgung, Luft- und Bodentreffer. Seine Geschosse bremsen Feinde und explodieren mit großem Flächenschaden.",
+  "category": "turret",
+  "size": 5,
+  "health": 2280,
+  "range": 410,
+  "minRange": 100,
+  "reload": 228,
+  "rotateSpeed": 2.5,
+  "recoil": 7.0,
+  "shake": 4.0,
+  "maxAmmo": 12,
+  "ammoPerShot": 1,
+  "shootSound": "artillery",
+  "targetAir": true,
+  "hasPower": true,
+  "requirements": [
+    "titanium/950",
+    "plastanium/720",
+    "surge-alloy/730",
+    "phase-fabric/550",
+    "quantum-matter/220",
+    "antimatter-ampoule/22"
+  ],
+  "consumes": {
+    "power": 28.0
+  },
+  "ammoTypes": {
+    "quantum-matter": {
+      "type": "ArtilleryBulletType",
+      "speed": 4.5,
+      "damage": 175,
+      "lifetime": 92,
+      "width": 24,
+      "height": 28,
+      "splashDamage": 990,
+      "splashDamageRadius": 112,
+      "backColor": "243051",
+      "frontColor": "8aeff2",
+      "hitColor": "ad65ff",
+      "pierceArmor": true,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1,
+      "status": "slow",
+      "statusDuration": 330,
+      "collidesTiles": false,
+      "fragBullets": 3,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "speed": 0.07,
+        "damage": 0,
+        "lifetime": 92,
+        "width": 6,
+        "height": 6,
+        "hittable": false,
+        "collides": false,
+        "despawnHit": true,
+        "splashDamage": 115,
+        "splashDamageRadius": 51,
+        "status": "sapped",
+        "statusDuration": 120,
+        "frontColor": "7be8fa",
+        "backColor": "b164ff",
+        "hitEffect": "none",
+        "despawnEffect": "none"
+      },
+      "collides": true,
+      "collidesAir": true,
+      "collidesGround": true,
+      "hitSize": 20,
+      "despawnHit": true
+    }
+  },
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "surge-alloy/420",
+      "phase-fabric/280",
+      "quantum-matter/90"
+    ]
+  },
+  "targetGround": true,
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

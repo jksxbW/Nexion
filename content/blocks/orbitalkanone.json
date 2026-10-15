@@ -1,0 +1,64 @@
+{
+  "type": "ItemTurret",
+  "name": "Orbitalkanone",
+  "description": "Extrem schwere, lange nachladende Neutronium-Kanone. Kein orbitaler Weltkarten-Angriff.",
+  "category": "turret",
+  "size": 8,
+  "health": 3760,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "neutronium/500",
+    "dunkle-materie/120"
+  ],
+  "hasPower": true,
+  "range": 690,
+  "reload": 420,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "artillery",
+  "consumes": {
+    "power": 140
+  },
+  "ammoTypes": {
+    "neutronium": {
+      "type": "BasicBulletType",
+      "speed": 11,
+      "lifetime": 75,
+      "damage": 1600,
+      "width": 14,
+      "height": 20,
+      "frontColor": "75e8fa",
+      "backColor": "52627a",
+      "hitColor": "75e8fa",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 2100,
+      "splashDamageRadius": 185,
+      "status": "sapped",
+      "statusDuration": 250,
+      "pierce": true,
+      "pierceArmor": true,
+      "pierceCap": 12
+    }
+  },
+  "maxAmmo": 40,
+  "ammoPerShot": 1,
+  "hasItems": true,
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

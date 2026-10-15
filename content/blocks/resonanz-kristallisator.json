@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Resonanz-Kristallisator",
+  "description": "Laesst Solarit und Quantenmaterie zu Resonanzkristallen wachsen.",
+  "category": "crafting",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "titanium/280",
+    "silicon/180",
+    "thorium/100",
+    "solarit/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/280",
+      "silicon/180"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 90,
+  "craftTime": 165,
+  "craftEffect": "smeltsmoke",
+  "liquidCapacity": 180,
+  "consumes": {
+    "power": 39,
+    "items": [
+      "solarit/2",
+      "quantum-matter/2",
+      "silicon/3"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.1,
+      "spinSprite": true
+    }
+  ],
+  "outputItem": "resonanzkristall/2"
+}

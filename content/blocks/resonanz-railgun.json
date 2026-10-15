@@ -1,0 +1,63 @@
+{
+  "type": "ItemTurret",
+  "name": "Resonanz-Railgun",
+  "description": "Hochpraezise Railgun mit Resonanzkristall-Geschossen.",
+  "category": "turret",
+  "size": 5,
+  "health": 2900,
+  "requirements": [
+    "titanium/350",
+    "silicon/225",
+    "thorium/125",
+    "resonanzkristall/30"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/350",
+      "silicon/225"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "liquidCapacity": 140,
+  "consumes": {
+    "power": 25
+  },
+  "range": 505,
+  "reload": 72,
+  "rotateSpeed": 2.9,
+  "recoil": 2.4,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "resonanzkristall": {
+      "type": "BasicBulletType",
+      "speed": 5.7,
+      "lifetime": 82,
+      "damage": 315,
+      "width": 12,
+      "height": 22,
+      "frontColor": "f58dec",
+      "backColor": "374251",
+      "hitColor": "f58dec",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "splashDamage": 205,
+      "splashDamageRadius": 60,
+      "collidesAir": true,
+      "collidesGround": true,
+      "ammoMultiplier": 1.0,
+      "status": "sapped",
+      "statusDuration": 240
+    }
+  },
+  "maxAmmo": 60,
+  "ammoPerShot": 1
+}

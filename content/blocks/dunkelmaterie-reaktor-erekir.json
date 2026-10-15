@@ -1,0 +1,48 @@
+{
+  "type": "NuclearReactor",
+  "name": "Dunkelmaterie-Reaktor (Erekir)",
+  "description": "Superreaktor: Dunkle Materie als Brennstoff, Neutronenfluessigkeit als aktive Kuehlung. Bei Kuehlausfall Ueberhitzungsgefahr.",
+  "category": "power",
+  "size": 6,
+  "health": 3720,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "dunkle-materie/35",
+    "neutronium/50"
+  ],
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 280,
+  "fuelItem": "dunkle-materie",
+  "powerProduction": 900,
+  "itemDuration": 360,
+  "heating": 0.003,
+  "coolantPower": 0.3,
+  "smokeThreshold": 0.45,
+  "flashThreshold": 0.7,
+  "explosionRadius": 72,
+  "explosionDamage": 14000,
+  "consumes": {
+    "item": "dunkle-materie",
+    "liquid": {
+      "liquid": "neutronenfluid",
+      "amount": 0.28,
+      "update": false
+    }
+  },
+  "lightColor": "84efcb",
+  "hotColor": "f97369a3",
+  "explodeEffect": "reactorExplosion",
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  }
+}

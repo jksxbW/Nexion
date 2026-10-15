@@ -1,0 +1,11 @@
+{
+  "name": "Quanten-Rueckstand",
+  "description": "Unbrauchbarer Rueckstand aus einem fehlgeschlagenen Quantenminer-Versuch; kann entsorgt werden. Er ist kein Erz.",
+  "color": "62677b",
+  "cost": 0.01,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

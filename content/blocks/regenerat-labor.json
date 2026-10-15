@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Regenerat-Labor",
+  "description": "Veredelt Nanitenfluessigkeit zum Reparaturfluid Regenerat.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1428,
+  "requirements": [
+    "titanium/210",
+    "silicon/135",
+    "thorium/75",
+    "astralit/18"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/210",
+      "silicon/135"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 90,
+  "craftTime": 95,
+  "craftEffect": "smeltsmoke",
+  "liquidCapacity": 180,
+  "consumes": {
+    "power": 24,
+    "items": [
+      "silicon/2",
+      "astralit/1"
+    ],
+    "liquid": "nanitenfluessigkeit/0.18"
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.1,
+      "spinSprite": true
+    }
+  ],
+  "outputLiquid": "regenerat/0.28"
+}

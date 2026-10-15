@@ -1,0 +1,11 @@
+{
+  "name": "Pyroditerz",
+  "description": "Vulkanisches Pyroditerz. Alternative Route fuer die bestehende Pyronium-Produktion; in Karteneditor-Karten abbaubar.",
+  "color": "ff8a48",
+  "hardness": 6,
+  "cost": 2.0,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

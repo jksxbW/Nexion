@@ -1,0 +1,52 @@
+{
+  "type": "GenericCrafter",
+  "category": "crafting",
+  "size": 3,
+  "health": 930,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 48,
+  "craftTime": 180,
+  "outputItem": "uranium-ore/2",
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0.0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "spinSprite": true,
+      "rotateSpeed": 2.835
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-top"
+    }
+  ],
+  "name": "Uran-Spurenfilter · Erekir",
+  "description": "Gewinnt kleine Uran-Spuren aus Beryllium und Wolfram. Benötigt weder Sand noch eine natürliche Uranader. Erzeugt 2 Uranerz alle 3 Sekunden.",
+  "requirements": [
+    "beryllium/140",
+    "tungsten/70",
+    "silicon/40"
+  ],
+  "consumes": {
+    "power": 7.0,
+    "items": [
+      "beryllium/8",
+      "tungsten/4"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/140",
+      "tungsten/70",
+      "silicon/40"
+    ]
+  }
+}

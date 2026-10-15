@@ -1,0 +1,20 @@
+{
+  "name": "Ionenplasma",
+  "description": "Geladene Plasmafluessigkeit fuer Ionenwaffen und den Ionen-Fusionsreaktor.",
+  "color": "59caff",
+  "barColor": "59caff",
+  "lightColor": "59caff80",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "flammability": 0,
+  "explosiveness": 0,
+  "gas": false,
+  "temperature": 0.2,
+  "heatCapacity": 1.05,
+  "viscosity": 0.64,
+  "blockReactive": false,
+  "effect": "electrified"
+}

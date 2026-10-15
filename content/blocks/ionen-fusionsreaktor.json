@@ -1,0 +1,37 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Ionen-Fusionsreaktor",
+  "description": "Hochleistungsreaktor: benoetigt Ionenplasma und Neutronenfluessigkeit zur Kuehlung.",
+  "category": "power",
+  "size": 5,
+  "health": 2900,
+  "requirements": [
+    "titanium/350",
+    "silicon/225",
+    "thorium/125",
+    "solarit/30"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/350",
+      "silicon/225"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasItems": false,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 50,
+  "liquidCapacity": 240,
+  "powerProduction": 880,
+  "warmupSpeed": 0.04,
+  "consumes": {
+    "liquids": [
+      "ionenplasma/0.17",
+      "neutronenfluid/0.14"
+    ]
+  }
+}

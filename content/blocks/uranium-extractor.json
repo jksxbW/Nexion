@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Uran-Rueckgewinnungsanlage",
+  "description": "Rückgewinnungsanlage: erzeugt Uranerz aus Thorium und Sand. Für Sektoren ohne natürliche Uranadern. Als günstigere Alternative steht der Uran-Spurenfilter zur Verfügung.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1040,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 40,
+  "requirements": [
+    "lead/210",
+    "titanium/160",
+    "graphite/150",
+    "silicon/140"
+  ],
+  "consumes": {
+    "power": 9.0,
+    "items": [
+      "thorium/4",
+      "sand/6"
+    ]
+  },
+  "outputItem": "uranium-ore/8",
+  "craftTime": 360,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/420",
+      "silicon/340",
+      "graphite/230"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "rotateSpeed": 1.215,
+      "spinSprite": true
+    }
+  ],
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

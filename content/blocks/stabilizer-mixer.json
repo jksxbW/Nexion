@@ -1,0 +1,54 @@
+{
+  "type": "GenericCrafter",
+  "name": "Quanten-Stabilisator-Mischer",
+  "description": "Stellt das seltene Quanten-Stabilisator-Fluid für den Antimaterie-Reaktor her. Läuft der Nachschub aus, wird es sehr, sehr ungesund.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1050,
+  "hasItems": true,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+  "hasPower": true,
+  "liquidCapacity": 90,
+  "requirements": [
+    "titanium/260",
+    "metaglass/210",
+    "silicon/185",
+    "phase-fabric/65"
+  ],
+  "consumes": {
+    "power": 22.0,
+    "items": [
+      "silicon/1"
+    ],
+    "liquids": [
+      "cryofluid/0.48",
+      "water/0.3"
+    ]
+  },
+  "outputLiquid": "stabilizer-fluid/0.85",
+  "craftTime": 60,
+  "craftEffect": "steam",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/750",
+      "silicon/620",
+      "thorium/270"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "rotateSpeed": 1.958,
+      "spinSprite": true
+    }
+  ],
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "PowerSource",
+  "name": "NEXION-Superstromquelle (Editor)",
+  "description": "Nur im Sandbox-/Editor-Modus. Nutzt die echte PowerSource-Mechanik und erzeugt 1 Million Strom je Tick (bei 60 TPS etwa 60 Millionen/s); endlich, aber extrem hoch.",
+  "category": "power",
+  "size": 2,
+  "health": 1000,
+  "powerProduction": 1000000.0,
+  "buildVisibility": "sandboxOnly",
+  "requirements": [
+    "copper/1"
+  ],
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/1"
+    ]
+  },
+  "maxNodes": 96,
+  "laserRange": 24,
+  "autolink": true,
+  "drawRange": false
+}

@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "Pyronium-Moerser",
+  "description": "Pyronium-Geschosse erzeugen feurige Explosionen und Entzuendung.",
+  "category": "turret",
+  "size": 4,
+  "health": 1560,
+  "requirements": [
+    "titanium/168",
+    "silicon/128",
+    "pyronium/45"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/168",
+      "silicon/128"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasItems": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 12.4
+  },
+  "range": 390,
+  "reload": 66,
+  "rotateSpeed": 3.5,
+  "recoil": 2.5,
+  "shootCone": 14,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "pyronium": {
+      "type": "BasicBulletType",
+      "speed": 5.8,
+      "lifetime": 80,
+      "damage": 100,
+      "width": 12,
+      "height": 17,
+      "frontColor": "ff8455",
+      "backColor": "42506c",
+      "hitColor": "ff8455",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "splashDamage": 200,
+      "splashDamageRadius": 72,
+      "status": "burning",
+      "statusDuration": 450
+    }
+  },
+  "maxAmmo": 50,
+  "ammoPerShot": 1
+}

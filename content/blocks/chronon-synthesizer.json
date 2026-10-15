@@ -1,0 +1,56 @@
+{
+  "type": "GenericCrafter",
+  "name": "Chronon-Synthesizer",
+  "description": "Verdichtet Quanten-Materie, Phasengewebe und Surge-Alloy zu Chronon-Zellen. Hochenergie-Fertigung: sehr teuer, aber nötig für alle Zeitfelder.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1680,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 100,
+  "requirements": [
+    "titanium/520",
+    "silicon/470",
+    "phase-fabric/240",
+    "surge-alloy/260",
+    "quantum-matter/105"
+  ],
+  "consumes": {
+    "power": 82.0,
+    "items": [
+      "quantum-matter/7",
+      "phase-fabric/6",
+      "surge-alloy/4",
+      "silicon/4"
+    ]
+  },
+  "outputItem": "chronon-cell/2",
+  "craftTime": 330,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 2.295,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/1150",
+      "silicon/920",
+      "surge-alloy/220"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "OreBlock",
+  "name": "Uranerz-Ader",
+  "description": "Abbaubares Uranerz für selbst erstellte Karten im Karteneditor. Standard-Kampagnensektoren erzeugen es nicht automatisch; nutze dort die Uran-Spurenfilter oder Rückgewinnungsanlagen.",
+  "category": "effect",
+  "itemDrop": "uranium-ore",
+  "variants": 3,
+  "oreDefault": true,
+  "oreScale": 26.6,
+  "oreThreshold": 0.898,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

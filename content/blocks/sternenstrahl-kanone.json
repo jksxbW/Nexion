@@ -1,0 +1,63 @@
+{
+  "type": "LiquidTurret",
+  "name": "Sternenstrahl-Kanone",
+  "description": "Verschiesst ultraheisse Sternenplasma-Ladungen, die bei Treffer zerplatzen.",
+  "category": "turret",
+  "size": 5,
+  "health": 2350,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "neutronium/140"
+  ],
+  "hasPower": true,
+  "range": 460,
+  "reload": 95,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "artillery",
+  "consumes": {
+    "power": 42
+  },
+  "ammoTypes": {
+    "sternenplasma": {
+      "type": "BasicBulletType",
+      "speed": 6.6,
+      "lifetime": 85,
+      "damage": 140,
+      "width": 14,
+      "height": 20,
+      "frontColor": "ffdb78",
+      "backColor": "52627a",
+      "hitColor": "ffdb78",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 490,
+      "splashDamageRadius": 72,
+      "status": "melting",
+      "statusDuration": 600,
+      "puddles": 5,
+      "puddleLiquid": "sternenplasma",
+      "puddleAmount": 18,
+      "puddleRange": 36
+    }
+  },
+  "hasLiquids": true,
+  "liquidCapacity": 160,
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

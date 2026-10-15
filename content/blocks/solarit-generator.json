@@ -1,0 +1,36 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Solarit-Generator",
+  "description": "Verbrennt Solarit als energiedichten Brennstoff.",
+  "category": "power",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "titanium/280",
+    "silicon/180",
+    "thorium/100",
+    "solarit/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/280",
+      "silicon/180"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 50,
+  "liquidCapacity": 240,
+  "powerProduction": 350,
+  "warmupSpeed": 0.04,
+  "consumes": {
+    "items": [
+      "solarit/1"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+# Lokales Archiv alter Notizen und Prüfprotokolle
+_archiv/
+
+# Build-Ausgaben
+*.zip
+dist/
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*

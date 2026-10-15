@@ -1,0 +1,61 @@
+{
+  "type": "ItemTurret",
+  "name": "Neutronium-Railgun",
+  "description": "Durchschlagsstarke Geschosse aus Neutronium.",
+  "category": "turret",
+  "size": 5,
+  "health": 2350,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "neutronium/100"
+  ],
+  "hasPower": true,
+  "range": 520,
+  "reload": 110,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "artillery",
+  "consumes": {
+    "power": 25
+  },
+  "ammoTypes": {
+    "neutronium": {
+      "type": "BasicBulletType",
+      "speed": 8,
+      "lifetime": 78,
+      "damage": 365,
+      "width": 14,
+      "height": 20,
+      "frontColor": "75e8fa",
+      "backColor": "52627a",
+      "hitColor": "75e8fa",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 110,
+      "splashDamageRadius": 44,
+      "pierce": true,
+      "pierceCap": 5,
+      "pierceArmor": true
+    }
+  },
+  "maxAmmo": 40,
+  "ammoPerShot": 1,
+  "hasItems": true,
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

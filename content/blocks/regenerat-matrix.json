@@ -1,0 +1,37 @@
+{
+  "type": "MendProjector",
+  "name": "Regenerat-Matrix",
+  "description": "Repariert umliegende Gebaeude mit Regenerat und Strom.",
+  "category": "defense",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "titanium/280",
+    "silicon/180",
+    "thorium/100",
+    "resonanzkristall/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/280",
+      "silicon/180"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 200,
+  "consumes": {
+    "power": 11,
+    "liquid": "regenerat/0.12"
+  },
+  "range": 170,
+  "reload": 120,
+  "healPercent": 15,
+  "useTime": 300,
+  "baseColor": "84ffc4",
+  "phaseColor": "c3fff0"
+}

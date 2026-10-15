@@ -1,0 +1,8 @@
+{
+  "type": "OverlayFloor",
+  "name": "Solariterz-Ader",
+  "itemDrop": "solarit-erz",
+  "variants": 3,
+  "hasColor": true,
+  "mapColor": "ffce6d"
+}

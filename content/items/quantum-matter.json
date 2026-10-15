@@ -1,0 +1,13 @@
+{
+  "name": "Quanten-Materie",
+  "description": "Stabilisierte exotische Materie aus dem Quantenring.",
+  "color": "82f8ef",
+  "hardness": 0,
+  "cost": 5.5,
+  "charge": 1.0,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

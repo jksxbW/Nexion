@@ -1,0 +1,14 @@
+{
+  "name": "Dunkle Materie",
+  "description": "Exotisches Material fuer Gravitationstechnik und Dunkelmaterie-Reaktoren.",
+  "color": "a76bfb",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 13,
+  "hardness": 8,
+  "charge": 1.4,
+  "explosiveness": 0.4
+}

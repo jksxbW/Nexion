@@ -1,0 +1,34 @@
+{
+  "type": "Drill",
+  "name": "Quantenbohrer · Erekir",
+  "description": "Tiefbohrer der Stufe 9. Baut Neutronit und Pyrodit aus selbst platzierten Erzadern ab; kann auch normale Erze abbauen.",
+  "category": "production",
+  "size": 3,
+  "health": 1170,
+  "requirements": [
+    "tungsten/120",
+    "oxide/100",
+    "carbide/40",
+    "quantum-matter/18"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/120",
+      "oxide/100"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 45,
+  "consumes": {
+    "power": 11
+  },
+  "tier": 9,
+  "drillTime": 235,
+  "rotateSpeed": 6.0,
+  "drillEffect": "mineBig"
+}

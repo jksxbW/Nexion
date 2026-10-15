@@ -1,0 +1,34 @@
+{
+  "type": "Battery",
+  "name": "Mega-Speicher I · Erekir",
+  "description": "Automatischer Hochkapazitaets-Energiespeicher mit 1.000.000 Energie. Laedt bei Ueberschuss und liefert Strom bei Bedarf - ganz ohne Logikprozessor.",
+  "category": "power",
+  "size": 4,
+  "health": 2500,
+  "requirements": [
+    "silicon/320",
+    "tungsten/240",
+    "carbide/140",
+    "oxide/85",
+    "quantum-matter/25"
+  ],
+  "consumes": {
+    "powerBuffered": 1000000
+  },
+  "baseExplosiveness": 0.8090909090909091,
+  "emptyLightColor": "233443",
+  "fullLightColor": "80d6f5",
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "silicon/176",
+      "tungsten/132",
+      "carbide/77",
+      "oxide/46",
+      "quantum-matter/13"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

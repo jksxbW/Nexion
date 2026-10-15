@@ -1,0 +1,20 @@
+{
+  "name": "Gravitonfluid",
+  "description": "Stabilisierte Gravitationsemulsion fuer Flachenangriffe.",
+  "color": "a278ef",
+  "barColor": "a278ef",
+  "lightColor": "a278ef80",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "flammability": 0,
+  "explosiveness": 0,
+  "gas": false,
+  "temperature": 0.2,
+  "heatCapacity": 1.05,
+  "viscosity": 0.64,
+  "blockReactive": false,
+  "effect": "slow"
+}

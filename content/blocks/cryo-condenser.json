@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "Kryo-Kondensator",
+  "description": "Kompakter Endgame-Kühler. Wandelt Wasser und Titan sehr effizient in Kryofluid um und stützt damit Reaktoren und Hochleistungsfabriken.",
+  "category": "crafting",
+  "size": 2,
+  "health": 540,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+  "liquidCapacity": 40,
+  "itemCapacity": 12,
+  "requirements": [
+    "lead/90",
+    "titanium/75",
+    "metaglass/60",
+    "silicon/45"
+  ],
+  "consumes": {
+    "power": 4.5,
+    "items": [
+      "titanium/1"
+    ],
+    "liquids": [
+      "water/0.75"
+    ]
+  },
+  "outputLiquid": "cryofluid/0.55",
+  "craftTime": 42,
+  "craftEffect": "steam",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "rotateSpeed": 1.755,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-top"
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/350",
+      "lead/250",
+      "silicon/150"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

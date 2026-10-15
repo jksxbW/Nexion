@@ -1,0 +1,24 @@
+{
+  "type": "Battery",
+  "name": "NEXION-Giga-Batterie (Editor)",
+  "description": "Sandbox-/Editor-Akku mit 1 Billion Strom Speicherkapazitaet (1e12). Kein echtes Unendlich: die Engine verwendet Float-Werte; sehr grosse Speichermengen koennen ungenau oder in Anzeigen begrenzt sein. Fuer stabile Anzeigen den Editor-Stabilspeicher nutzen.",
+  "category": "power",
+  "size": 3,
+  "health": 1400,
+  "buildVisibility": "sandboxOnly",
+  "requirements": [
+    "copper/1"
+  ],
+  "consumes": {
+    "powerBuffered": 1000000000000.0
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/1"
+    ]
+  }
+}

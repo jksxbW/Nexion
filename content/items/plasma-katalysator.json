@@ -1,0 +1,17 @@
+{
+  "name": "Plasma-Katalysator",
+  "description": "Aktivierter Hochenergiekristall zur Plasmaerzeugung. Aus Uran und Metallen gewonnen.",
+  "color": "ffab58",
+  "hardness": 4,
+  "cost": 1.5,
+  "flammability": 0.25,
+  "explosiveness": 0.2,
+  "radioactivity": 0.1,
+  "research": {
+    "parent": "silicon",
+    "requirements": [
+      "silicon/300",
+      "thorium/100"
+    ]
+  }
+}

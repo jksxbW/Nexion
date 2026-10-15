@@ -1,0 +1,34 @@
+{
+  "type": "ForceProjector",
+  "name": "Chrono-Schutzschild · Erekir",
+  "description": "Grosser Schutzschild aus Dunkler Materie und Chronon-Zellen. Nutzt Strom, aber keine Antimaterie-Munition.",
+  "category": "defense",
+  "size": 4,
+  "health": 1560,
+  "requirements": [
+    "tungsten/210",
+    "oxide/145",
+    "dunkle-materie/30",
+    "chronon-cell/22"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/210",
+      "oxide/145"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "consumes": {
+    "power": 15
+  },
+  "radius": 172,
+  "shieldHealth": 9400,
+  "phaseShieldBoost": 1200,
+  "phaseRadiusBoost": 20,
+  "phaseUseTime": 360,
+  "cooldownNormal": 1.7
+}

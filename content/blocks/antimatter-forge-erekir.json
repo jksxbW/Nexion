@@ -1,0 +1,59 @@
+{
+  "type": "GenericCrafter",
+  "name": "Antimaterie-Synthesekammer · Erekir",
+  "description": "Für Erekir angepasst. Erzeugt hochinstabile Antimaterie-Ampullen. Diese werden anschließend vorzugsweise über das neue Antimaterie-Leitnetz zu Reaktoren und Waffen transportiert.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1750,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 80,
+  "liquidCapacity": 75,
+  "requirements": [
+    "tungsten/430",
+    "oxide/580",
+    "carbide/285",
+    "quantum-matter/75"
+  ],
+  "consumes": {
+    "power": 118.0,
+    "items": [
+      "quantum-matter/3",
+      "enriched-uranium/2",
+      "oxide/4",
+      "carbide/2"
+    ],
+    "liquid": "cryofluid/0.18"
+  },
+  "outputItem": "antimatter-ampoule/1",
+  "craftTime": 450,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/950",
+      "silicon/880",
+      "oxide/350",
+      "carbide/100"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 0.878,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "shownPlanets": [
+    "erekir"
+  ]
+}

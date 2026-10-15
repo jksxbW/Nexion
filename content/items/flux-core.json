@@ -1,0 +1,15 @@
+{
+  "name": "Fluxkern",
+  "description": "Ein instabiler, quantenverschränkter Zeitkern. Aus Chronon-Zellen und Antimaterie geschmiedet; exklusiver Hochleistungstreibstoff für 100x- und 1000x-Fluxkompensatoren.",
+  "color": "ffd67c",
+  "hardness": 6,
+  "cost": 12.5,
+  "explosiveness": 0.25,
+  "flammability": 0.0,
+  "radioactivity": 0.03,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

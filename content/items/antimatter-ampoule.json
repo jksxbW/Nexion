@@ -1,0 +1,15 @@
+{
+  "name": "Antimaterie-Ampulle",
+  "description": "Magnetisch eingeschlossene Antimaterie. Stoerungen sind fatal.",
+  "color": "ec7cff",
+  "hardness": 0,
+  "cost": 9.0,
+  "charge": 1.4,
+  "explosiveness": 3.3,
+  "flammability": 0.0,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

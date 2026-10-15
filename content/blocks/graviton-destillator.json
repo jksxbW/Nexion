@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Graviton-Destillator",
+  "description": "Destilliert dunkle Materie und Neutronenfluid zu Gravitonfluid.",
+  "category": "crafting",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "titanium/280",
+    "silicon/180",
+    "thorium/100",
+    "graviplatte/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/280",
+      "silicon/180"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 90,
+  "craftTime": 120,
+  "craftEffect": "smeltsmoke",
+  "liquidCapacity": 180,
+  "consumes": {
+    "power": 44,
+    "items": [
+      "dunkle-materie/1",
+      "graviplatte/1"
+    ],
+    "liquid": "neutronenfluid/0.12"
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.1,
+      "spinSprite": true
+    }
+  ],
+  "outputLiquid": "gravitonfluid/0.18"
+}

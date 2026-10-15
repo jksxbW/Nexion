@@ -1,0 +1,31 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Sternenstrom-Turbine · Erekir",
+  "description": "Verbraucht vorhandenes Sternenplasma als Stromquelle. Zusaetzliche Verwendung fuer Sternenplasma ohne neue Materialien.",
+  "category": "power",
+  "size": 4,
+  "health": 1560,
+  "requirements": [
+    "tungsten/215",
+    "oxide/145",
+    "neutronium/35",
+    "pyronium/30"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/215",
+      "oxide/145"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 210,
+  "powerProduction": 125,
+  "consumes": {
+    "liquid": "sternenplasma/0.12"
+  }
+}

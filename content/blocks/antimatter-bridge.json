@@ -1,0 +1,27 @@
+{
+  "type": "BufferedItemBridge",
+  "name": "Antimaterie-Brücke",
+  "description": "Kurzstrecken-Transfer für Ampullen über Lücken, Wände oder Maschinen hinweg.",
+  "category": "distribution",
+  "health": 160,
+  "requirements": [
+    "lead/10",
+    "graphite/8",
+    "silicon/6",
+    "phase-fabric/2"
+  ],
+  "range": 8,
+  "speed": 60,
+  "bufferCapacity": 20,
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/350",
+      "lead/250",
+      "silicon/150"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

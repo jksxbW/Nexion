@@ -1,0 +1,59 @@
+{
+  "type": "LiquidTurret",
+  "name": "Plasma-Werfer (Erekir)",
+  "description": "Verschiesst fluessiges Plasma auf Bodeneinheiten. Die Treffer erzeugen heisse Pfuetzen und verursachen bis zu 10 Sekunden Schmelzschaden als Statuseffekt; die Pfuetzendauer haengt von der Engine ab.",
+  "category": "turret",
+  "health": 1400,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 140,
+  "range": 215,
+  "reload": 27,
+  "rotateSpeed": 4.0,
+  "recoil": 1.6,
+  "shootCone": 18,
+  "targetGround": true,
+  "targetAir": false,
+  "shootSound": "shootBig",
+  "shootEffect": "shootLiquid",
+  "requirements": [
+    "tungsten/280",
+    "oxide/160",
+    "plasma-katalysator/20"
+  ],
+  "consumes": {
+    "power": 9.0
+  },
+  "ammoTypes": {
+    "plasma": {
+      "type": "LiquidBulletType",
+      "liquid": "plasma",
+      "speed": 4.5,
+      "lifetime": 53,
+      "damage": 25,
+      "puddleSize": 10.0,
+      "orbSize": 7.0,
+      "puddles": 3,
+      "puddleRange": 15,
+      "puddleAmount": 15,
+      "status": "melting",
+      "statusDuration": 600,
+      "ammoMultiplier": 0.7,
+      "hitEffect": "hitLiquid",
+      "despawnEffect": "hitLiquid",
+      "collidesAir": false,
+      "collidesGround": true
+    }
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/80",
+      "tungsten/40"
+    ]
+  },
+  "size": 3
+}

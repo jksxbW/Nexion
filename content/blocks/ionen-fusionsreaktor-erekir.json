@@ -1,0 +1,37 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Ionen-Fusionsreaktor (Erekir)",
+  "description": "Hochleistungsreaktor: benoetigt Ionenplasma und Neutronenfluessigkeit zur Kuehlung.",
+  "category": "power",
+  "size": 5,
+  "health": 2900,
+  "requirements": [
+    "tungsten/325",
+    "oxide/175",
+    "carbide/70",
+    "solarit/30"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/325",
+      "oxide/175"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasItems": false,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 50,
+  "liquidCapacity": 240,
+  "powerProduction": 880,
+  "warmupSpeed": 0.04,
+  "consumes": {
+    "liquids": [
+      "ionenplasma/0.17",
+      "neutronenfluid/0.14"
+    ]
+  }
+}

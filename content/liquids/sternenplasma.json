@@ -1,0 +1,20 @@
+{
+  "name": "Sternenplasma",
+  "description": "Goldweisses Fusionsplasma als Brennstoff fuer Supernova-Reaktor und Sternenwaffen.",
+  "color": "ffdb78",
+  "barColor": "ffdb78",
+  "lightColor": "ffdb7880",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "gas": false,
+  "temperature": 0.68,
+  "heatCapacity": 0.04,
+  "viscosity": 0.85,
+  "effect": "melting",
+  "blockReactive": false
+}

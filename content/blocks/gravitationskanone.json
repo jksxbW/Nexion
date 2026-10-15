@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "Gravitationskanone",
+  "description": "Dunkelmaterie-Geschoss mit grossem Flächenschaden und Verlangsamung. Kein echter Gravitationseinzug ohne Java.",
+  "category": "turret",
+  "size": 5,
+  "health": 2350,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "dunkle-materie/60"
+  ],
+  "hasPower": true,
+  "range": 420,
+  "reload": 125,
+  "rotateSpeed": 3.0,
+  "recoil": 3,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "artillery",
+  "consumes": {
+    "power": 30
+  },
+  "ammoTypes": {
+    "dunkle-materie": {
+      "type": "ArtilleryBulletType",
+      "speed": 3.8,
+      "lifetime": 110,
+      "damage": 210,
+      "width": 14,
+      "height": 20,
+      "frontColor": "a76bfb",
+      "backColor": "52627a",
+      "hitColor": "a76bfb",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "despawnHit": true,
+      "splashDamage": 650,
+      "splashDamageRadius": 90,
+      "status": "slow",
+      "statusDuration": 300
+    }
+  },
+  "maxAmmo": 40,
+  "ammoPerShot": 1,
+  "hasItems": true,
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}

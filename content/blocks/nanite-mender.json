@@ -1,0 +1,37 @@
+{
+  "type": "MendProjector",
+  "name": "Naniten-Reparaturfeld",
+  "description": "Luxuriöses Endgame-Reparaturfeld. Repariert Gebäude in einem großen Bereich deutlich schneller als einfache Projektoren.",
+  "category": "defense",
+  "size": 3,
+  "health": 880,
+  "hasPower": true,
+  "requirements": [
+    "lead/180",
+    "silicon/140",
+    "phase-fabric/55",
+    "surge-alloy/40"
+  ],
+  "consumes": {
+    "power": 5.8
+  },
+  "range": 108,
+  "reload": 150,
+  "healPercent": 18,
+  "phaseBoost": 10,
+  "phaseRangeBoost": 28,
+  "useTime": 360,
+  "baseColor": "84f491",
+  "phaseColor": "d2ffd8",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/750",
+      "silicon/620",
+      "thorium/270"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

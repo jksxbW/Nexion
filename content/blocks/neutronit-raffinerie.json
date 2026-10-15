@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Neutronit-Raffinerie",
+  "description": "Alternative Neutronium-Fertigung aus abgebautem Neutroniterz. Der klassische Neutronenverdichter bleibt unveraendert.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1170,
+  "requirements": [
+    "titanium/155",
+    "silicon/115",
+    "thorium/85"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/155",
+      "silicon/115"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.4,
+      "spinSprite": true
+    }
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 60,
+  "consumes": {
+    "power": 24,
+    "items": [
+      "neutronit-erz/3",
+      "titanium/2"
+    ]
+  },
+  "outputItem": "neutronium/2",
+  "craftTime": 120,
+  "craftEffect": "smeltsmoke"
+}

@@ -1,0 +1,48 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Fluxkompensator Omega",
+  "description": "1000x-Zeitfeld im Umkreis für eigene übertaktbare Gebäude. Treibstoffverbrauch: 2 Fluxkerne alle 3 Sekunden. Beschleunigt keine Gegner und benötigt keine direkten Maschinenanschlüsse. Nur für Testkarten auf iOS: Extremboost kann Ruckler, fehlende Schüsse und Produktionsgrenzen verursachen.",
+  "category": "effect",
+  "size": 5,
+  "health": 1500,
+  "hasPower": true,
+  "hasItems": true,
+  "hasBoost": false,
+  "itemCapacity": 30,
+  "requirements": [
+    "titanium/1500",
+    "silicon/1250",
+    "plastanium/1050",
+    "phase-fabric/950",
+    "surge-alloy/850",
+    "quantum-matter/450",
+    "antimatter-ampoule/60",
+    "flux-core/60"
+  ],
+  "consumes": {
+    "power": 520.0,
+    "items": [
+      "flux-core/2"
+    ]
+  },
+  "useTime": 180.0,
+  "speedBoost": 1000.0,
+  "speedBoostPhase": 0.0,
+  "phaseRangeBoost": 0.0,
+  "reload": 90.0,
+  "range": 64.0,
+  "baseColor": "ff9670",
+  "phaseColor": "ff9670",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "surge-alloy/780",
+      "phase-fabric/520",
+      "quantum-matter/225",
+      "antimatter-ampoule/12"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

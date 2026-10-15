@@ -1,0 +1,25 @@
+{
+  "type": "Junction",
+  "name": "Antimaterie-Kreuzung",
+  "description": "Kreuzt zwei Antimaterie-Leitbänder ohne Stau. Perfekt für kompakte Reaktortrassen.",
+  "category": "distribution",
+  "health": 110,
+  "requirements": [
+    "copper/3",
+    "lead/4",
+    "graphite/2",
+    "silicon/1"
+  ],
+  "speed": 20,
+  "capacity": 8,
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/180",
+      "lead/120"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

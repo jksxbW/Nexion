@@ -1,0 +1,12 @@
+{
+  "name": "Astralit",
+  "description": "Stabiler Energiekristall fuer Ionenkerne, Spezialgeschosse und Gravitationstechnik.",
+  "color": "7bf4ff",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 9.8,
+  "hardness": 7
+}

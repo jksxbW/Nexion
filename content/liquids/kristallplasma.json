@@ -1,0 +1,18 @@
+{
+  "name": "Kristallplasma",
+  "description": "Antimaterie-stabilisiertes Plasma: verlangsamt feindliche Einheiten und dient als Munition fuer die Kristallplasma-Kanone.",
+  "color": "b181ff",
+  "barColor": "ac87ff",
+  "lightColor": "aa7aff9c",
+  "temperature": 0.68,
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "viscosity": 0.9,
+  "heatCapacity": 0.08,
+  "effect": "slow",
+  "coolant": false,
+  "gas": false,
+  "boilPoint": 3.0,
+  "research": "plasma",
+  "blockReactive": false
+}

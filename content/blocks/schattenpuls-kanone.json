@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "Schattenpuls-Kanone",
+  "description": "Dunkle Materie erzeugt grossflaechigen Schaden und verlangsamt Gegner. Keine echte Schwerkraft-Anziehung.",
+  "category": "turret",
+  "size": 5,
+  "health": 1950,
+  "requirements": [
+    "titanium/210",
+    "silicon/160",
+    "dunkle-materie/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/210",
+      "silicon/160"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasItems": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 15.5
+  },
+  "range": 450,
+  "reload": 105,
+  "rotateSpeed": 3.5,
+  "recoil": 2.5,
+  "shootCone": 14,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "dunkle-materie": {
+      "type": "BasicBulletType",
+      "speed": 5.8,
+      "lifetime": 80,
+      "damage": 240,
+      "width": 12,
+      "height": 17,
+      "frontColor": "b58aff",
+      "backColor": "42506c",
+      "hitColor": "b58aff",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "ammoMultiplier": 1.0,
+      "collidesAir": true,
+      "collidesGround": true,
+      "splashDamage": 360,
+      "splashDamageRadius": 90,
+      "status": "slow",
+      "statusDuration": 300
+    }
+  },
+  "maxAmmo": 50,
+  "ammoPerShot": 1
+}

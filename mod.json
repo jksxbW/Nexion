@@ -1,0 +1,11 @@
+{
+  "name": "nuclear-antimatter-overhaul",
+  "displayName": "NEXION - Kosmos-Technologie",
+  "author": "witty-Gamer-Eli",
+  "description": "NEXION 3.9.0: 10 neue Stoffe (2 Erze, 5 Hightech-Materialien, 3 Fluessigkeiten), 22 neue Maschinen/Waffen/Verteidigungen fuer Serpulo und Erekir; eigener Kosmosbohrer, alternative Erzherstellung fuer alte Welten, Ionenreaktor, Plasmawaffen und experimentelles NEXION-Startlogo. Antimaterie-Herstellung unveraendert; keine Java-/JS-Erweiterungen. Logo-Fix 3.9.1: transparenter und kleinerer NEXION-Hauptmenueschriftzug.",
+  "version": "3.9.1",
+  "minGameVersion": "160",
+  "hidden": false,
+  "dependencies": [],
+  "iosCompatible": true
+}

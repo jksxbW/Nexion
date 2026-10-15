@@ -1,0 +1,12 @@
+{
+  "name": "Astraliterz",
+  "description": "Seltener kosmischer Erzbrocken. In Editor-Karten abbaubar oder in der Astralit-Extraktion synthetisierbar.",
+  "color": "6edfff",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 9.8,
+  "hardness": 7
+}

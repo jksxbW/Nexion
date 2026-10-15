@@ -1,0 +1,24 @@
+{
+  "type": "Battery",
+  "name": "NEXION-Stabilspeicher (Editor)",
+  "description": "Editor-Speicher mit exakt 2 Milliarden Strom Kapazitaet. Unterhalb der 32-Bit-Zahlengrenze fuer robustere Einzelblock-Anzeigen. Verbinde viele Stabilispeicher fuer mehr Gesamtkapazitaet; Anzeigegrenzen des Spiels bleiben moeglich.",
+  "category": "power",
+  "size": 3,
+  "health": 1400,
+  "buildVisibility": "sandboxOnly",
+  "requirements": [
+    "copper/1"
+  ],
+  "consumes": {
+    "powerBuffered": 2000000000.0
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/1"
+    ]
+  }
+}

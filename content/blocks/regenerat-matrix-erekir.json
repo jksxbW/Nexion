@@ -1,0 +1,37 @@
+{
+  "type": "MendProjector",
+  "name": "Regenerat-Matrix (Erekir)",
+  "description": "Repariert umliegende Gebaeude mit Regenerat und Strom.",
+  "category": "defense",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "tungsten/260",
+    "oxide/140",
+    "carbide/56",
+    "resonanzkristall/24"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/260",
+      "oxide/140"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 200,
+  "consumes": {
+    "power": 11,
+    "liquid": "regenerat/0.12"
+  },
+  "range": 170,
+  "reload": 120,
+  "healPercent": 15,
+  "useTime": 300,
+  "baseColor": "84ffc4",
+  "phaseColor": "c3fff0"
+}

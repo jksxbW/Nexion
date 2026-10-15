@@ -1,0 +1,36 @@
+{
+  "type": "MassDriver",
+  "name": "Antimaterie-Impulswerfer · Erekir",
+  "description": "Für Erekir angepasst. Langstrecken-Transferkanone für Antimaterie-Ampullen. Versorgt abgelegene Reaktor- oder Waffensektoren zuverlässig.",
+  "category": "distribution",
+  "size": 3,
+  "health": 1320,
+  "itemCapacity": 140,
+  "hasPower": true,
+  "requirements": [
+    "tungsten/180",
+    "silicon/140",
+    "oxide/160",
+    "antimatter-ampoule/2"
+  ],
+  "range": 440,
+  "rotateSpeed": 0.07,
+  "reloadTime": 70,
+  "minDistribute": 8,
+  "shake": 2.2,
+  "translation": 8,
+  "knockback": 2.0,
+  "consumes": {
+    "power": 2.8
+  },
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/430",
+      "silicon/630"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

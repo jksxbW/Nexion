@@ -1,0 +1,28 @@
+{
+  "type": "ShockMine",
+  "name": "Impuls-Mine",
+  "description": "Einweg-Kontaktmine. Explodiert bei Berührung durch feindliche Bodeneinheiten und zerstört sich nach der ersten Auslösung selbst. Schockketten statt eines kreisförmigen Explosionsradius. Klasse 1 ist eine Stufe, kein Radius von 1 Feldern.",
+  "category": "effect",
+  "size": 1,
+  "health": 90,
+  "hasShadow": false,
+  "damage": 12,
+  "length": 5,
+  "tendrils": 6,
+  "cooldown": 2.0,
+  "tileDamage": 115.0,
+  "requirements": [
+    "copper/18",
+    "lead/12"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/18",
+      "lead/12"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ShockMine",
+  "name": "Quanten-Superbombe · Erekir",
+  "description": "Einweg-Kontaktmine. Explodiert bei Berührung durch feindliche Bodeneinheiten und zerstört sich nach der ersten Auslösung selbst. Schockketten statt eines kreisförmigen Explosionsradius. Klasse 100 ist eine Stufe, kein Radius von 100 Feldern.",
+  "category": "effect",
+  "size": 1,
+  "health": 850,
+  "hasShadow": false,
+  "damage": 650,
+  "length": 32,
+  "tendrils": 8,
+  "cooldown": 2.0,
+  "tileDamage": 875.0,
+  "requirements": [
+    "carbide/100",
+    "oxide/70",
+    "antimatter-ampoule/8",
+    "quantum-matter/25",
+    "chronon-cell/10"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "carbide/100",
+      "oxide/70"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

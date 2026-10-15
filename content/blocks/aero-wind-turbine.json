@@ -1,0 +1,39 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Aero-Windturbine",
+  "description": "Windkraftturm mit rotierendem Rotor. Erzeugt konstant 300 Energie pro Sekunde ohne Brennstoffe; Windboeen werden in der iPhone-Content-Mod nicht simuliert.",
+  "category": "power",
+  "size": 3,
+  "health": 1050,
+  "requirements": [
+    "lead/210",
+    "graphite/140",
+    "titanium/260",
+    "silicon/170",
+    "plastanium/60"
+  ],
+  "powerProduction": 5.0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-rotor",
+      "rotateSpeed": 3.375,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-hub"
+    }
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/180",
+      "lead/120"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

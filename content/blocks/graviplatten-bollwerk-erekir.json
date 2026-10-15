@@ -1,0 +1,25 @@
+{
+  "type": "Wall",
+  "name": "Graviplatten-Bollwerk (Erekir)",
+  "description": "Riesige stabilisierte Panzerwand aus Graviplatten.",
+  "category": "defense",
+  "size": 3,
+  "health": 19000,
+  "requirements": [
+    "tungsten/195",
+    "oxide/105",
+    "carbide/42",
+    "graviplatte/120"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/195",
+      "oxide/105"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ],
+  "armor": 35
+}

@@ -1,0 +1,52 @@
+{
+  "type": "GenericCrafter",
+  "name": "Pyronium-Schmiede",
+  "description": "Verarbeitet Thorium und Schlacke mit Plasma zu instabilem Pyronium.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1680,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "thorium/90"
+  ],
+  "consumes": {
+    "power": 32,
+    "items": [
+      "thorium/3",
+      "silicon/1"
+    ],
+    "liquids": [
+      "slag/0.18",
+      "plasma/0.08"
+    ]
+  },
+  "craftTime": 180,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputItem": "pyronium/2",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.35,
+      "spinSprite": true
+    }
+  ]
+}

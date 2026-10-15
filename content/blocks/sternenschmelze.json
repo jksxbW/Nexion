@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sternenschmelze",
+  "description": "Verschmilzt Plasma mit Thorium und Neutronium zu Sternenplasma.",
+  "category": "crafting",
+  "size": 5,
+  "health": 2100,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "neutronium/65",
+    "plasma-katalysator/30"
+  ],
+  "consumes": {
+    "power": 65,
+    "items": [
+      "thorium/2",
+      "neutronium/1"
+    ],
+    "liquid": "plasma/0.24"
+  },
+  "craftTime": 240,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputLiquid": "sternenplasma/0.16",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.35,
+      "spinSprite": true
+    }
+  ]
+}

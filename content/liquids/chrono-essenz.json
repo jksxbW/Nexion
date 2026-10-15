@@ -1,0 +1,19 @@
+{
+  "name": "Chrono-Essenz",
+  "description": "Violette Fluessigkeit fuer Zeitfeld-Projektoren und Chronowaffen.",
+  "color": "b6a0fa",
+  "barColor": "b6a0fa",
+  "lightColor": "b6a0fa80",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "flammability": 0,
+  "explosiveness": 0,
+  "gas": false,
+  "temperature": 0.2,
+  "heatCapacity": 0.9,
+  "viscosity": 0.75,
+  "effect": "slow"
+}

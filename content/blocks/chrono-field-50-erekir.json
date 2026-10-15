@@ -1,0 +1,46 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Fluxkompensator III · Erekir",
+  "description": "Für Erekir angepasst. 50x-Zeitfeld im Umkreis für eigene übertaktbare Gebäude. Treibstoffverbrauch: enorm: 4 Chronon-Zellen alle 3 Sekunden. Beschleunigt keine Gegner und benötigt keine direkten Maschinenanschlüsse. Die reale Geschwindigkeit hängt von Ressourcen und Engine-Grenzen ab.",
+  "category": "effect",
+  "size": 4,
+  "health": 1300,
+  "hasPower": true,
+  "hasItems": true,
+  "hasBoost": false,
+  "itemCapacity": 40,
+  "requirements": [
+    "tungsten/700",
+    "silicon/660",
+    "oxide/780",
+    "carbide/290",
+    "quantum-matter/90",
+    "chronon-cell/30"
+  ],
+  "consumes": {
+    "power": 95.0,
+    "items": [
+      "chronon-cell/4"
+    ]
+  },
+  "useTime": 180.0,
+  "speedBoost": 50.0,
+  "speedBoostPhase": 0.0,
+  "phaseRangeBoost": 0.0,
+  "reload": 150.0,
+  "range": 144.0,
+  "baseColor": "9ca5ff",
+  "phaseColor": "9ca5ff",
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/1100",
+      "oxide/400",
+      "carbide/240",
+      "quantum-matter/75"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

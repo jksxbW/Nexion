@@ -1,0 +1,63 @@
+{
+  "type": "GenericCrafter",
+  "name": "Quanten-Beschleuniger · Erekir",
+  "description": "Für Erekir angepasst. Vanilla-näher neu gestaltet: ein großer Doppelring-Beschleuniger, der Titan und Plastanium in Quanten-Materie und Phasengewebe umwandelt.",
+  "category": "crafting",
+  "size": 5,
+  "health": 2550,
+  "hasItems": true,
+  "itemCapacity": 80,
+  "hasPower": true,
+  "requirements": [
+    "tungsten/650",
+    "silicon/520",
+    "oxide/630",
+    "carbide/180",
+    "enriched-uranium/50"
+  ],
+  "consumes": {
+    "power": 65.0,
+    "items": [
+      "tungsten/9",
+      "oxide/7"
+    ]
+  },
+  "outputItems": [
+    "quantum-matter/2",
+    "carbide/3"
+  ],
+  "craftTime": 190,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.55,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring2",
+      "rotateSpeed": -1.12,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/710",
+      "silicon/620",
+      "oxide/200"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

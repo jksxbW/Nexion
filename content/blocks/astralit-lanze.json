@@ -1,0 +1,63 @@
+{
+  "type": "ItemTurret",
+  "name": "Astralit-Lanze",
+  "description": "Dauerfeuer aus Astralit-Geschossen mit Energieschock.",
+  "category": "turret",
+  "size": 4,
+  "health": 2112,
+  "requirements": [
+    "titanium/280",
+    "silicon/180",
+    "thorium/100",
+    "astralit/24"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "titanium/280",
+      "silicon/180"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "liquidCapacity": 140,
+  "consumes": {
+    "power": 15
+  },
+  "range": 348,
+  "reload": 38,
+  "rotateSpeed": 2.9,
+  "recoil": 2.4,
+  "shootCone": 12,
+  "targetAir": true,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "astralit": {
+      "type": "BasicBulletType",
+      "speed": 5.7,
+      "lifetime": 82,
+      "damage": 155,
+      "width": 12,
+      "height": 22,
+      "frontColor": "70dfff",
+      "backColor": "374251",
+      "hitColor": "70dfff",
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "splashDamage": 101,
+      "splashDamageRadius": 52,
+      "collidesAir": true,
+      "collidesGround": true,
+      "ammoMultiplier": 1.0,
+      "status": "sapped",
+      "statusDuration": 240
+    }
+  },
+  "maxAmmo": 60,
+  "ammoPerShot": 1
+}

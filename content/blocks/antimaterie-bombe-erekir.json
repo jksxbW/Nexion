@@ -1,0 +1,30 @@
+{
+  "type": "ShockMine",
+  "name": "Antimaterie-Bombe · Erekir",
+  "description": "Einweg-Kontaktmine. Explodiert bei Berührung durch feindliche Bodeneinheiten und zerstört sich nach der ersten Auslösung selbst. Schockketten statt eines kreisförmigen Explosionsradius. Klasse 50 ist eine Stufe, kein Radius von 50 Feldern.",
+  "category": "effect",
+  "size": 1,
+  "health": 520,
+  "hasShadow": false,
+  "damage": 300,
+  "length": 24,
+  "tendrils": 8,
+  "cooldown": 2.0,
+  "tileDamage": 545.0,
+  "requirements": [
+    "carbide/50",
+    "oxide/30",
+    "antimatter-ampoule/2",
+    "quantum-matter/8"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "carbide/50",
+      "oxide/30"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

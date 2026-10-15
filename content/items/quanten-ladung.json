@@ -1,0 +1,11 @@
+{
+  "name": "Quantenladung",
+  "description": "Ein Zehntel der Energie eines Uran-Brennstabs, als Los fuer den Quantenminer. Zehn Ladungen entstehen aus einem Brennstab.",
+  "color": "72f5f0",
+  "cost": 1.0,
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "GenericCrafter",
+  "name": "Fluxkern-Schmiede · Erekir",
+  "description": "Für Erekir angepasst. Verschmilzt Chronon-Zellen, Quanten-Materie, Phasengewebe, Surge-Alloy und Antimaterie zu einem extrem teuren Fluxkern. Ohne Fluxkerne funktionieren die 100x- und 1000x-Felder nicht.",
+  "category": "crafting",
+  "size": 4,
+  "health": 1860,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 90,
+  "requirements": [
+    "tungsten/650",
+    "silicon/540",
+    "oxide/700",
+    "carbide/300",
+    "quantum-matter/125",
+    "chronon-cell/24"
+  ],
+  "consumes": {
+    "power": 105.0,
+    "items": [
+      "chronon-cell/5",
+      "quantum-matter/3",
+      "oxide/2",
+      "carbide/2",
+      "antimatter-ampoule/1"
+    ]
+  },
+  "outputItem": "flux-core/1",
+  "craftTime": 360,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": -2.43,
+      "spinSprite": true
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-core"
+    }
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "tungsten/1100",
+      "oxide/400",
+      "carbide/240",
+      "quantum-matter/75"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

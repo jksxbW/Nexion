@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Kryo-Kristallisator",
+  "description": "Kristallisiert Kryonit aus Cryofluid und Quantenmaterie.",
+  "category": "crafting",
+  "size": 3,
+  "health": 1260,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 150,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "quantum-matter/30"
+  ],
+  "consumes": {
+    "power": 16,
+    "items": [
+      "quantum-matter/1",
+      "titanium/2"
+    ],
+    "liquid": "cryofluid/0.26"
+  },
+  "craftTime": 110,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "none",
+  "updateEffectChance": 0,
+  "outputItem": "kryonit/2",
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  },
+  "drawer": [
+    "DrawDefault",
+    {
+      "type": "DrawRegion",
+      "suffix": "-ring",
+      "rotateSpeed": 1.35,
+      "spinSprite": true
+    }
+  ]
+}

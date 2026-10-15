@@ -1,0 +1,29 @@
+{
+  "type": "PowerNode",
+  "name": "Hyper-Knoten",
+  "description": "Großer Hochspannungs-Knoten für riesige Endgame-Netze. Reichweitenstark, stabil und passend für die neue Reaktor-Generation.",
+  "category": "power",
+  "size": 2,
+  "health": 520,
+  "requirements": [
+    "lead/120",
+    "titanium/80",
+    "silicon/70",
+    "surge-alloy/25"
+  ],
+  "laserRange": 13,
+  "maxNodes": 10,
+  "laserColor1": "ffd37f",
+  "laserColor2": "7fd4ff",
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/350",
+      "lead/250",
+      "silicon/150"
+    ]
+  },
+  "shownPlanets": [
+    "serpulo"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Wall",
+  "name": "Neutronium-Panzerwand (Erekir)",
+  "description": "Enorm widerstandsfaehige 2x2-Verteidigungswand.",
+  "category": "defense",
+  "size": 2,
+  "health": 9000,
+  "armor": 20,
+  "requirements": [
+    "tungsten/120",
+    "oxide/80",
+    "neutronium/40"
+  ],
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/15"
+    ]
+  }
+}

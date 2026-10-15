@@ -1,0 +1,23 @@
+{
+  "type": "Junction",
+  "name": "Antimaterie-Kreuzung · Erekir",
+  "description": "Für Erekir angepasst. Kreuzt zwei Antimaterie-Leitbänder ohne Stau. Perfekt für kompakte Reaktortrassen.",
+  "category": "distribution",
+  "health": 110,
+  "requirements": [
+    "beryllium/7",
+    "silicon/3"
+  ],
+  "speed": 20,
+  "capacity": 8,
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/160",
+      "silicon/100"
+    ]
+  },
+  "shownPlanets": [
+    "erekir"
+  ]
+}

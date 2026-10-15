@@ -1,0 +1,12 @@
+{
+  "name": "Solarit",
+  "description": "Leuchtender Kristall fuer Hochenergiekanonen und Solarit-Generatoren.",
+  "color": "ffcc65",
+  "alwaysUnlocked": true,
+  "shownPlanets": [
+    "serpulo",
+    "erekir"
+  ],
+  "cost": 9.8,
+  "hardness": 7
+}

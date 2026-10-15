@@ -1,0 +1,25 @@
+{
+  "type": "LiquidTank",
+  "name": "Plasma-Drucktank (Erekir)",
+  "description": "Verstaerkter 3x3-Fluessigkeitsbehaelter fuer Plasma und Kristallplasma (kann auch andere Fluessigkeiten speichern).",
+  "category": "liquid",
+  "health": 1600,
+  "hasLiquids": true,
+  "liquidCapacity": 850,
+  "requirements": [
+    "tungsten/240",
+    "oxide/150",
+    "carbide/40"
+  ],
+  "shownPlanets": [
+    "erekir"
+  ],
+  "research": {
+    "parent": "core-bastion",
+    "requirements": [
+      "beryllium/80",
+      "tungsten/40"
+    ]
+  },
+  "size": 3
+}

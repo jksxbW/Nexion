@@ -1,0 +1,27 @@
+{
+  "type": "ShockMine",
+  "name": "Frost-Mine",
+  "description": "Einweg-Falle mit Kaelteentladung. Der Selbstschaden sorgt fuer eine Zerstoerung bei Aktivierung.",
+  "category": "effect",
+  "size": 1,
+  "health": 180,
+  "damage": 50,
+  "tileDamage": 220,
+  "length": 7,
+  "tendrils": 9,
+  "cooldown": 30,
+  "requirements": [
+    "titanium/130",
+    "silicon/90",
+    "kryonit/12"
+  ],
+  "shownPlanets": [
+    "serpulo"
+  ],
+  "research": {
+    "parent": "core-shard",
+    "requirements": [
+      "copper/15"
+    ]
+  }
+}
